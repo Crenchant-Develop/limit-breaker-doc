@@ -42,11 +42,11 @@ const Sections = () => (
                     </MySection>
 
                     <MySection>
-                        <MianContext number="1" title = "안녕하세요"/>
+                        <MianContext number="1" title="첫번째 제목입니다." />
                     </MySection>
 
                     <MySection>
-                        <LayoutView title="fourthPage" content="내용4" />
+                        <MianContext number="2" title="두번째 제목입니다." />
                     </MySection>
                 </div>
             );

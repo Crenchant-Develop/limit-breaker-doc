@@ -98,6 +98,7 @@ Main {
 }
 
 .content {
-	margin: 8vh 8vh 8vh 8vh;
+	margin: 6vh 6vh 6vh 6vh;
 	flex-grow: 1;
+	font-size: 6vh;
 }
