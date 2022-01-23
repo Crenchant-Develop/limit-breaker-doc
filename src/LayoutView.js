@@ -5,7 +5,7 @@ function LayoutView(props) {
   return (
     <div className="layoutView">
       <div className="title"> {props.title} </div>
-      <div className="content"> {props.content}</div>
+      <div className="content">{props.content}</div>
     </div>
   );
 }

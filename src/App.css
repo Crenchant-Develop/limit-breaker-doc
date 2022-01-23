@@ -5,6 +5,7 @@
 body {
 	margin: 0;
 	background-color: #222A35;
+	color: white;
 }
 
 Main {
@@ -21,15 +22,13 @@ Main {
 	pointer-events: none;
 }
 
-.flex-container {
+.Title-flex-container {
 	display: flex;
-	/* flex-flow: row; */
 	flex-direction: row;
 	height: 100%;
 }
 
 .Number {
-	color: white;
 	margin: 4vh 4vh 4vh 4vh;
 }
 
@@ -41,15 +40,14 @@ Main {
 }
 
 .Number-text {
-	padding: 0 0;
 	text-align: center;
 	position: relative;
-	top: 1vh;
+	top: 2.5vh;
 	left: -0.2vh;
-	font-size: 8vh;
+	font-size: 6vh;
 }
 
-.Bar {
+.Title-bar {
 	box-sizing: border-box;
 	border-radius: 2em;
 	width: 50vw;
@@ -63,6 +61,15 @@ Main {
 	left: -4vw;
 }
 
+.Title-text {
+	position: relative;
+	top: -12vh;
+	left: 1vw;
+	font-size: 8vh;
+	font-style: italic;
+	vertical-align: bottom;
+}
+
 .Main-header {
 	min-height: 100vh;
 	display: flex;
@@ -70,11 +77,10 @@ Main {
 	align-items: center;
 	justify-content: center;
 	font-size: calc(10px + 2vmin);
-	color: white;
 }
 
 .Center-text {
-	font-size: 60px;
+	font-size: 12vh;
 	font-style: italic;
 	position: absolute;
 	top: 50%;
@@ -88,9 +94,10 @@ Main {
 }
 
 .title {
-	flex-grow: 0.175;
+	flex-grow: 0;
 }
 
-.contents {
+.content {
+	margin: 8vh 8vh 8vh 8vh;
 	flex-grow: 1;
 }

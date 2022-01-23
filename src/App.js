@@ -42,7 +42,7 @@ const Sections = () => (
                     </MySection>
 
                     <MySection>
-                        <MianContext number="1" />
+                        <MianContext number="1" title = "안녕하세요"/>
                     </MySection>
 
                     <MySection>
@@ -66,14 +66,13 @@ function MainIntro() {
 }
 
 function MianContext(props) {
-
-    const titleImage = () => {
+    const title = () => {
         return (
             <div>
-                <div class="flex-container">
+                <div class="Title-flex-container">
                     <div className="Number" >
                         <div className="Number-circle" alt="numberCircle"
-                            style = {{
+                            style={{
                                 backgroundImage: `url( ${numberCircle} )`
                             }}
                         >
@@ -83,18 +82,13 @@ function MianContext(props) {
                         </div>
                     </div>
 
-                    <div className="Bar"/>
+                    <div className="Title-bar" >
+                        <div className="Title-text">
+                            {props.title}
+                        </div>
+                    </div>
                 </div>
             </div>
-        );
-    }
-
-    const title = (image) => {
-        return (
-            <>
-                {titleImage()}
-                제목
-            </>
         );
     }
 
