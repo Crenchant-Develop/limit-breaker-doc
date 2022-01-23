@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+}
+
+body
+{
+  margin: 0;
+  background-color: #222A35;
+}
+
+Main {
+  text-align: center;
+}
+
+.Main-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Main-circle  {
+  height: 60vmin;
+  pointer-events: none;
+}
+
+.flex-container {
+  display: flex;
+    
+  /* flex-flow: row; */ 
+  flex-direction: row;  
+  height: 100%;
+}
+
+.Number  {
+  margin: 30px 30px 30px 30px;
+}
+
+.Number-circle  {
+  height: 14vh;
+  align-self: center;
+  pointer-events: none;
+}
+
+.Bar  {
+  box-sizing: border-box;
+  border-radius: 2em;
+  width: 50vw;
+  height: 2.5vh;
+  margin: 20px auto;
+  background-color: #ea5550;
+  flex-grow: 0.8;
+  align-self: center;
+  position: relative;
+  top: 7.5vh;
+  left: -4vw;
+}
+
+.Main-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Center-text {
+  font-size: 60px;
+  font-style: italic;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.layoutView {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+  
+.title {
+  flex-grow: 0.175; 
+}
+
+.contents { 
+  flex-grow: 1; 
+}
