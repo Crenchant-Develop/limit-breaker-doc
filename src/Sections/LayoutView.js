@@ -1,4 +1,4 @@
-import "./App.css";
+import "../App.css";
 
 //사용법 <LayoutView title = "제목" content = "내용" />
 function LayoutView(props) {

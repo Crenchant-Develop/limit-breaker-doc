@@ -4,6 +4,7 @@
 
 body {
 	margin: 0;
+	white-space: pre-wrap;
 	background-color: #222A35;
 	color: white;
 }
@@ -88,6 +89,7 @@ Main {
 }
 
 .Number-text {
+	font-size: 5vh;
 }
 
 .layoutView {
