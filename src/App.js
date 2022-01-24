@@ -42,11 +42,15 @@ const Sections = () => (
                     </MySection>
 
                     <MySection>
-                        <MianContext number="1" title="첫번째 제목입니다." />
+                        <MainContext number="01" title="영상" />
                     </MySection>
 
                     <MySection>
-                        <MianContext number="2" title="두번째 제목입니다." />
+                        <MainContext number="02" title="개요" />
+                    </MySection>
+
+                    <MySection>
+                        <MainContext number="03" title="주요 컨셉" />
                     </MySection>
                 </div>
             );
@@ -65,7 +69,7 @@ function MainIntro() {
     );
 }
 
-function MianContext(props) {
+function MainContext(props) {
     const title = () => {
         return (
             <div>
@@ -92,11 +96,13 @@ function MianContext(props) {
         );
     }
 
-    const contentText = () => {
+    const contentText = (props) => {
         return (
-            <>
-                테스트
-            </>
+            <div>
+                <div className="Content-text">
+                    테스트
+                </div>
+            </div>
         );
     }
 
