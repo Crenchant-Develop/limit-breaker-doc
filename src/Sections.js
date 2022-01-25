@@ -4,12 +4,13 @@ import { ContentsList } from "./Sections/ContentsList";
 import { ContextOne } from "./Sections/ContextOne";
 import { ContextTwo } from "./Sections/ContextTwo";
 import { ContextThree } from "./Sections/ContextThree";
+import { ContextFour } from "./Sections/ContextFour";
 import { LinkOne, LinkTwo } from "./Sections/Links";
 import { MainContext } from "./Sections/MainContext";
 import { MainView } from "./Sections/MainView";
 import { Section } from "./Section";
 
-export const anchors = ["main", "contents", "1", "2", "3", "4", "5"];
+export const anchors = ["main", "contents", "1", "2", "3", "4", "5", "6"];
 
 export default function Sections() {
     return (
@@ -51,6 +52,10 @@ export default function Sections() {
 
                         <Section>
                             <MainContext number="05" title="스토리 컨셉" content={LinkTwo()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="06" title="메인 화면" content={ContextFour()} />
                         </Section>
                     </div>
                 );
