@@ -5,7 +5,7 @@ import { ContextOne } from "./Sections/ContextOne";
 import { ContextTwo } from "./Sections/ContextTwo";
 import { ContextThree } from "./Sections/ContextThree";
 import { ContextFour } from "./Sections/ContextFour";
-import { LinkOne, LinkTwo } from "./Sections/Links";
+import { LinkOne, LinkTwo, LinkThree, LinkFour } from "./Sections/Links";
 import { MainContext } from "./Sections/MainContext";
 import { MainView } from "./Sections/MainView";
 import { Section } from "./Section";
