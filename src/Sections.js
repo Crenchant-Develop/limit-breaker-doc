@@ -1,12 +1,15 @@
 import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
 import { ContentsList } from "./Sections/ContentsList";
-import { Intro } from "./Sections/Intro";
+import { ContextOne } from "./Sections/ContextOne";
+import { ContextTwo } from "./Sections/ContextTwo";
+import { ContextThree } from "./Sections/ContextThree";
+import { LinkOne, LinkTwo } from "./Sections/Links";
+import { MainContext } from "./Sections/MainContext";
 import { MainView } from "./Sections/MainView";
 import { Section } from "./Section";
-import { MainContext } from "./Sections/MainContext";
 
-export const anchors = ["main", "contents", "firstPage", "secondPage", "thirdPage"];
+export const anchors = ["main", "contents", "1", "2", "3", "4", "5"];
 
 export default function Sections() {
     return (
@@ -31,15 +34,23 @@ export default function Sections() {
                         </Section>
 
                         <Section>
-                            <MainContext number="01" title="영상" content="test" />
+                            <MainContext number="01" title="영상" content={LinkOne()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="02" title="개요" content={Intro()} />
+                            <MainContext number="02" title="개요" content={ContextOne()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="03" title="주요 컨셉" content="tes" />
+                            <MainContext number="03" title="주요 컨셉" content={ContextTwo()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="04" title="디자인 컨셉" content={ContextThree()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="05" title="스토리 컨셉" content={LinkTwo()} />
                         </Section>
                     </div>
                 );

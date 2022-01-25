@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export function Section(props) {
     return (
         <div className="section">

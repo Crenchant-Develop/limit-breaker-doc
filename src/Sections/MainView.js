@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../questLogo.png';
+import logo from '../img/questLogo.png';
 
 export function MainView() {
     return (

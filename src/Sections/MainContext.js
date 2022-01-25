@@ -1,7 +1,6 @@
 import React from "react";
-import numberCircle from '../numberCircle.svg';
+import numberCircle from '../img/numberCircle.svg';
 import LayoutView from "./LayoutView";
-
 
 export function MainContext(props) {
     const title = () => {
