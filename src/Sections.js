@@ -5,12 +5,15 @@ import { ContextOne } from "./Sections/ContextOne";
 import { ContextTwo } from "./Sections/ContextTwo";
 import { ContextThree } from "./Sections/ContextThree";
 import { ContextFour } from "./Sections/ContextFour";
+import { ContextFive } from "./Sections/ContextFive";
+import { ContextNine } from "./Sections/ContextNine";
+import { ContextTen } from "./Sections/ContextTen";
 import { LinkOne, LinkTwo, LinkThree, LinkFour } from "./Sections/Links";
 import { MainContext } from "./Sections/MainContext";
 import { MainView } from "./Sections/MainView";
 import { Section } from "./Section";
 
-export const anchors = ["main", "contents", "1", "2", "3", "4", "5", "6"];
+export const anchors = ["main", "contents", "01", "02", "03", "04", "05", "06", "07", "10", "11", "12", "13"];
 
 export default function Sections() {
     return (
@@ -56,6 +59,26 @@ export default function Sections() {
 
                         <Section>
                             <MainContext number="06" title="메인 화면" content={ContextFour()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="07" title="강화" content={ContextFive()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="10" title="스테이지" content={LinkThree()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="11" title="오브젝트" content={LinkFour()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="12" title="경험치" content={ContextNine()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="13" title="슈가코인" content={ContextTen()} />
                         </Section>
                     </div>
                 );

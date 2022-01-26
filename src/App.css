@@ -9,6 +9,11 @@ body {
 	color: white;
 }
 
+mark {
+	background-color: #222A35;
+	color: yellow;	
+}
+
 Main {
 	text-align: center;
 }
