@@ -1,19 +1,13 @@
 import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
 import { ContentsList } from "./Sections/ContentsList";
-import { ContextOne } from "./Sections/ContextOne";
-import { ContextTwo } from "./Sections/ContextTwo";
-import { ContextThree } from "./Sections/ContextThree";
-import { ContextFour } from "./Sections/ContextFour";
-import { ContextFive } from "./Sections/ContextFive";
-import { ContextNine } from "./Sections/ContextNine";
-import { ContextTen } from "./Sections/ContextTen";
-import { LinkOne, LinkTwo, LinkThree, LinkFour } from "./Sections/Links";
+import { MainOne, MainTwo } from "./Sections/ContextText";
+import { LinkMain, LinkSystem, LinkStage, LinkGUI, LinkArt, LinkStory, LinkSettings } from "./Sections/Links";
 import { MainContext } from "./Sections/MainContext";
 import { MainView } from "./Sections/MainView";
 import { Section } from "./Section";
 
-export const anchors = ["main", "contents", "01", "02", "03", "04", "05", "06", "07", "10", "11", "12", "13"];
+export const anchors = ["main", "contents", "01", "02", "03", "04", "05", "06", "07", "08", "09"];
 
 export default function Sections() {
     return (
@@ -38,47 +32,39 @@ export default function Sections() {
                         </Section>
 
                         <Section>
-                            <MainContext number="01" title="영상" content={LinkOne()} />
+                            <MainContext number="01" title="영상" content={LinkMain()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="02" title="개요" content={ContextOne()} />
+                            <MainContext number="02" title="개요" content={MainOne()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="03" title="주요 컨셉" content={ContextTwo()} />
+                            <MainContext number="03" title="주요 컨셉" content={MainTwo()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="04" title="디자인 컨셉" content={ContextThree()} />
+                            <MainContext number="04" title="시스템 컨셉" content={LinkSystem()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="05" title="스토리 컨셉" content={LinkTwo()} />
+                            <MainContext number="05" title="스테이지 컨셉" content={LinkStage()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="06" title="메인 화면" content={ContextFour()} />
+                            <MainContext number="06" title="GUI 컨셉" content={LinkGUI()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="07" title="강화" content={ContextFive()} />
+                            <MainContext number="07" title="아트 컨셉" content={LinkArt()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="10" title="스테이지" content={LinkThree()} />
+                            <MainContext number="08" title="스토리 컨셉" content={LinkStory()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="11" title="오브젝트" content={LinkFour()} />
-                        </Section>
-
-                        <Section>
-                            <MainContext number="12" title="경험치" content={ContextNine()} />
-                        </Section>
-
-                        <Section>
-                            <MainContext number="13" title="슈가코인" content={ContextTen()} />
+                            <MainContext number="09" title="배경 설정 컨셉" content={LinkSettings()} />
                         </Section>
                     </div>
                 );
