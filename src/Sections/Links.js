@@ -1,4 +1,6 @@
 import React from "react";
+import { Link, Route } from 'react-router-dom';
+import { Story } from './Story';
 
 export function LinkMain() {
     return (
@@ -42,8 +44,11 @@ export function LinkArt() {
 
 export function LinkStory() {
     return (
-        <div className="Link-text">
-            <a href="https://drive.google.com/file/d/1BIXYlOiCp4G2ZjNPqnLdslvWJz5HmWw1/view" target="_blank">스토리 기획서</a>
+        <div>
+            <div className="Link-text">
+                <Link to="/story">스토리 기획서</Link>
+            </div>
+            <Route path="/story" component={Story} />
         </div>
     );
 }
