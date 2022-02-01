@@ -123,6 +123,18 @@ Main {
 	margin: 0 10px;
 }
 
+.Storyboard-wrapper {
+	width: 819px;
+	margin: 0 auto;
+}
+
+.Storyboard {
+	width: 253px;
+	height: 191px;
+	float: left;
+	margin: 0 10px;
+}
+
 .Image-right {
 	float: right;
 	transform: translate(0%, -50%);
