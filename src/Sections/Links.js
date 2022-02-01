@@ -48,7 +48,6 @@ export function LinkStory() {
             <div className="Link-text">
                 <Link to="/story">스토리 기획서</Link>
             </div>
-            <Route path="/story" component={Story} />
         </div>
     );
 }
