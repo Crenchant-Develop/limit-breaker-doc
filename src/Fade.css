@@ -1,10 +1,8 @@
 .fade-out-box {
-  display: inline-block;
-  padding: 10px;
-  animation: fadeout 3s;
-  -moz-animation: fadeout 3s; /* Firefox */
-  -webkit-animation: fadeout 3s; /* Safari and Chrome */
-  -o-animation: fadeout 3s; /* Opera */
+  animation: fadeout 2.5s;
+  -moz-animation: fadeout 2.5s; /* Firefox */
+  -webkit-animation: fadeout 2.5s; /* Safari and Chrome */
+  -o-animation: fadeout 2.5s; /* Opera */
   animation-fill-mode: forwards;
 }
 @keyframes fadeout {
