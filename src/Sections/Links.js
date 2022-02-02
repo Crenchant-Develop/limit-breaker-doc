@@ -5,7 +5,7 @@ import { Story } from './Story';
 export function LinkMain() {
     return (
         <div className="Video-source">
-            <iframe width="60% auto" height="540px auto" src="https://www.youtube.com/embed/_BgVdRTHxcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/_BgVdRTHxcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     );
 }
