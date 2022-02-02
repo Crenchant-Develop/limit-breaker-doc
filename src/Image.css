@@ -1,0 +1,28 @@
+.Image-box-wrapper {
+	width: 674px;
+	margin: 0 auto;
+}
+
+.Image-box {
+	width: 317px;
+	height: 179px;
+	float: left;
+	margin: 0 10px;
+}
+
+.Image-right {
+	float: right;
+	transform: translate(0%, -50%);
+}
+
+.Storyboard-wrapper {
+	width: 819px;
+	margin: 0 auto;
+}
+
+.Storyboard {
+	width: 253px;
+	height: 191px;
+	float: left;
+	margin: 0 10px;
+}

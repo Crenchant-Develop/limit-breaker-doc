@@ -4,6 +4,9 @@ import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverf
 import { BrowserRouter } from 'react-router-dom';
 
 import './App.css';
+import './Main.css';
+import './Title.css';
+import './Image.css';
 import Sections from "./Sections";
 
 

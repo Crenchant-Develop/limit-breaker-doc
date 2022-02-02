@@ -1,0 +1,33 @@
+Main {
+	text-align: center;
+}
+
+.Main-header {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 5vh;
+}
+
+.Main-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+.Main-circle {
+	height: 60vmin;
+	pointer-events: none;
+}
+
+.Main-text {
+	font-size: 3vh;
+}
+
+.Main-text-center {
+	text-align: center;
+	font-size: 3vh;
+	position: relative;
+	top: 45vh;
+}

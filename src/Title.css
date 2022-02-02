@@ -1,0 +1,28 @@
+.Title-flex-container {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+
+.Title-bar {
+	box-sizing: border-box;
+	border-radius: 2em;
+	width: 50vw;
+	height: 2.5vh;
+	margin: 20px auto;
+	background-color: #ea5550;
+	flex-grow: 0.8;
+	align-self: center;
+	position: relative;
+	top: 6vh;
+	left: -4vw;
+}
+
+.Title-text {
+	position: relative;
+	top: -12vh;
+	left: 1vw;
+	font-size: 8vh;
+	font-style: italic;
+	vertical-align: bottom;
+}

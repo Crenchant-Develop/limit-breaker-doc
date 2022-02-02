@@ -8,7 +8,7 @@ import { MainView } from "./Sections/MainView";
 import { Section } from "./Section";
 import { Story } from "./Sections/Story";
 
-export const anchors = ["main", "contents", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10"];
+export const anchors = ["main", "contents", "01", "02", "03", "04", "05", "06", "07", "08", "09"];
 
 export default function Sections() {
     return (
@@ -66,10 +66,6 @@ export default function Sections() {
 
                         <Section>
                             <MainContext number="09" title="배경 설정 컨셉" content={LinkSettings()} />
-                        </Section>
-
-                        <Section>
-                            <MainContext number="10" title="스토리 (임시기틀)" content={Story()} />
                         </Section>
                     </div>
                 );

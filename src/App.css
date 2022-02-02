@@ -14,72 +14,14 @@ mark {
 	color: yellow;	
 }
 
-A {
-	text-decoration: none; 
-	color: #fff;
+a {
+	text-decoration: none;
+	color: white;
 }
 
-Main {
-	text-align: center;
-}
-
-.Main-header {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: 5vh;
-}
-
-.Main-logo {
-	height: 40vmin;
-	pointer-events: none;
-}
-
-.Main-circle {
-	height: 60vmin;
-	pointer-events: none;
-}
-
-.Main-text {
-	font-size: 3vh;
-}
-
-.Main-text-center {
-	text-align: center;
-	font-size: 3vh;
-	position: relative;
-	top: 45vh;
-}
-
-.Title-flex-container {
-	display: flex;
-	flex-direction: row;
-	height: 100%;
-}
-
-.Title-bar {
-	box-sizing: border-box;
-	border-radius: 2em;
-	width: 50vw;
-	height: 2.5vh;
-	margin: 20px auto;
-	background-color: #ea5550;
-	flex-grow: 0.8;
-	align-self: center;
-	position: relative;
-	top: 6vh;
-	left: -4vw;
-}
-
-.Title-text {
-	position: relative;
-	top: -12vh;
-	left: 1vw;
-	font-size: 8vh;
-	font-style: italic;
-	vertical-align: bottom;
+a:hover {
+	text-decoration: none;
+	color: yellow;
 }
 
 .Number {
@@ -120,35 +62,6 @@ Main {
 	position: absolute;
 	top: 50%;
 	transform: translate(-50%, -50%);
-}
-
-.Image-box-wrapper {
-	width: 674px;
-	margin: 0 auto;
-}
-
-.Image-box {
-	width: 317px;
-	height: 179px;
-	float: left;
-	margin: 0 10px;
-}
-
-.Storyboard-wrapper {
-	width: 819px;
-	margin: 0 auto;
-}
-
-.Storyboard {
-	width: 253px;
-	height: 191px;
-	float: left;
-	margin: 0 10px;
-}
-
-.Image-right {
-	float: right;
-	transform: translate(0%, -50%);
 }
 
 .layoutView {
