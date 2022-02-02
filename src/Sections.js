@@ -4,7 +4,6 @@ import { ContentsList } from "./Sections/ContentsList";
 import { MainOne, MainTwo } from "./Sections/ContextText";
 import { LinkMain, LinkSystem, LinkStage, LinkGUI, LinkArt, LinkStory, LinkSettings } from "./Sections/Links";
 import { MainContext } from "./Sections/MainContext";
-import { MainView } from "./Sections/MainView";
 import { Section } from "./Section";
 import { Story } from "./Sections/Story";
 
@@ -24,9 +23,6 @@ export default function Sections() {
 
                 return (
                     <div>
-                        <Section>
-                            <MainView />
-                        </Section>
 
                         <Section>
                             <ContentsList />
