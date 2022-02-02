@@ -4,8 +4,8 @@ import { Story } from './Story';
 
 export function LinkMain() {
     return (
-        <div className="Link-text">
-            <a href="https://streamable.com/13csr7" target="_blank">Limit Breaker Demo</a>
+        <div className="Video-source">
+            <iframe width="60% auto" height="540px auto" src="https://www.youtube.com/embed/_BgVdRTHxcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     );
 }

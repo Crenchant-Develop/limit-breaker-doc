@@ -14,6 +14,11 @@ mark {
 	color: yellow;	
 }
 
+A {
+	text-decoration: none; 
+	color: #fff;
+}
+
 Main {
 	text-align: center;
 }
@@ -94,6 +99,12 @@ Main {
 	top: 3.5vh;
 	left: -0.2vh;
 	font-size: 5vh;
+}
+
+.Video-source {
+    text-align: center;
+    position: relative;
+    top: 0;
 }
 
 .Link-text {
