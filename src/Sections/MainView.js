@@ -3,8 +3,8 @@ import logo from '../img/questLogo.png';
 
 export default function MainView() {
     return (
-        <div className="Main ">
-            <header className="Main-header fade-out-box">
+        <div className="Main fade-out-box">
+            <header className="Main-header">
                 <img src={logo} className="Main-logo" alt="logo" />
             </header>
         </div>

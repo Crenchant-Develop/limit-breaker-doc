@@ -2,14 +2,11 @@
 	margin: 0;
 }
 
-body {
+.FullPage {
 	margin: 0;
-	background-color: #222A35;
-	color: white;
 }
 
 mark {
-	background-color: #222A35;
 	color: yellow;	
 }
 
