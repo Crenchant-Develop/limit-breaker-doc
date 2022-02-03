@@ -1,13 +1,13 @@
 import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
-import { ContentsList } from "./Sections/ContentsList";
+import { Contents } from "./Sections/Contents";
 import { MainOne, MainTwo } from "./Sections/ContextText";
 import { LinkMain, LinkSystem, LinkStage, LinkGUI, LinkArt, LinkStory, LinkSettings } from "./Sections/Links";
 import { MainContext } from "./Sections/MainContext";
 import { Section } from "./Section";
 import { Story } from "./Sections/Story";
 
-export const anchors = ["main", "contents", "01", "02", "03", "04", "05", "06", "07", "08", "09"];
+export const anchors = ["main", "01", "02", "03", "04", "05", "06", "07", "08", "09"];
 
 export default function Sections() {
     return (
@@ -25,7 +25,7 @@ export default function Sections() {
                     <div>
 
                         <Section>
-                            <ContentsList />
+                            <Contents />
                         </Section>
 
                         <Section>

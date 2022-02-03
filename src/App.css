@@ -51,22 +51,6 @@ a:hover {
 	height: 60vh;
 }
 
-.Link-text {
-	text-align: center;
-	position: relative;
-	top: 16vh;
-	font-size: 8vh;
-}
-
-.Center-text {
-	font-size: 8vh;
-	font-style: italic;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
 .layoutView {
 	height: 100vh;
 	display: flex;
