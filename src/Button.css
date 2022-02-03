@@ -3,30 +3,29 @@
 	vertical-align: middle;
 }
 
-.btn {
-	font-size: 2vw;
+.btn, .btn2 {
+    font-size: 3vw;
+    font-style: bold;
 	width: 12.5vw;
 	height: 12.5vw;
-	border-style: solid;
-	border-width: 0.75vw;
-	border-color: #EA5550;
-	background-color: #222A35;
-	color: white;
+    color: white;
 	text-align: center;
 	vertical-align: middle;
 	margin: 0.25vw 0.25vw;
 }
 
+.btn {
+	border-style: solid;
+	border-width: 0.75vw;
+	border-color: #EA5550;
+	background-color: #222A35;
+	color: white;
+}
+
 .btn2 {
-	font-size: 2vw;
-	width: 12.5vw;
-	height: 12.5vw;
 	border-style: none;
 	background-color: #EA5550;
-	color: white;
-	text-align: center;
-	vertical-align: middle;
-	margin: 0.25vw 0.25vw;
+
 }
 
 .btn:hover, .btn2:hover, .btn3:hover {
