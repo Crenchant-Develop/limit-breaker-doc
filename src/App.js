@@ -31,7 +31,7 @@ function App() {
     }
 
     if (isIntro) {
-        setTimeout(viewSctions, 3000);
+        setTimeout(viewSctions, 2000);
         style.backgroundColor = '#222A35';
         return (
             <div style={style}>
