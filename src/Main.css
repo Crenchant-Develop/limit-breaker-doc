@@ -30,3 +30,33 @@ Main  {
 	position: relative;
 	top: 45vh;
 }
+
+.quarter-circle-small {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 20vw;
+	height: 20vw;
+	border-style: solid;
+	border-width: 2vw 0 0 2vw;
+	border-color: #EA5550;
+	border-radius: 20vw 0 0 0;
+	-moz-border-radius: 20vw 0 0 0;
+	-webkit-border-radius: 20vw 0 0 0;
+	z-index: -1;
+}
+
+.quarter-circle {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 25vw;
+	height: 25vw;
+	border-style: solid;
+	border-width: 2vw 0 0 2vw;
+	border-color: #EA5550;
+	border-radius: 25vw 0 0 0;
+	-moz-border-radius: 25vw 0 0 0;
+	-webkit-border-radius: 25vw 0 0 0;
+	z-index: -1;
+}

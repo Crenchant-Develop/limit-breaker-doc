@@ -17,7 +17,7 @@ import './Image.css';
 
 
 //이제 스플래시 인트로 Logo 화면이 구현되었습니다.
-//state 변수인 isIntro가 3초 뒤 true로 변하면서 본문이 보이게 변경했습니다.
+//state 변수인 isIntro가 2초 뒤 true로 변하면서 본문이 보이게 변경했습니다.
 function App() {
     const style = {
         backgroundColor: '#222A35',

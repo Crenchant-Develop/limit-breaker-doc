@@ -24,6 +24,11 @@ export function MainContext(props) {
                             {props.title}
                         </div>
                     </div>
+
+                    <div className="quarter-circle">
+                        <div className="quarter-circle-small">
+                        </div>
+                    </div>
                 </div>
             </div>
         );

@@ -32,10 +32,12 @@ export function ContentsButton() {
             <button class="btn2" onClick={LinkSystem}>시스템</button>
             <button class="btn" onClick={LinkStage}>스테이지</button>
             <button class="btn2" onClick={LinkGUI}>GUI</button>
+            <button class="btn" style={{visibility: "hidden"}}></button>
             <br />
-            <button class="btn" onClick={LinkArt}>아트</button>
-            <button class="btn2" onClick={LinkStory}>스토리</button>
-            <button class="btn" onClick={LinkSettings}>배경 설정</button>
+            <button class="btn" style={{visibility: "hidden"}}></button>
+            <button class="btn2" onClick={LinkArt}>아트</button>
+            <button class="btn" onClick={LinkStory}>스토리</button>
+            <button class="btn2" onClick={LinkSettings}>배경 설정</button>
         </div>
     );
 }
