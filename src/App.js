@@ -8,12 +8,13 @@ import { Section } from "./Section";
 import MainView from "./Sections/MainView";
 import Sections from "./Sections";
 
-import './Fade.css';
-import './App.css';
-import './Main.css';
-import './Text.css';
-import './Title.css';
-import './Image.css';
+import './/css/Fade.css';
+import './/css/App.css';
+import './/css/Button.css';
+import './/css/Main.css';
+import './/css/Text.css';
+import './/css/Title.css';
+import './/css/Image.css';
 
 
 //이제 스플래시 인트로 Logo 화면이 구현되었습니다.

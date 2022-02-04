@@ -21,32 +21,34 @@ export function MainContext(props) {
 
                     <div className="Title-bar">
                         <div className="Title-text">
-                            {props.title}
+                            <div className="Title-text">
+                                {props.title}
+                            </div>
                         </div>
                     </div>
 
-                    <div className="quarter-circle">
-                        <div className="quarter-circle-small">
+                        <div className="quarter-circle">
+                            <div className="quarter-circle-small">
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        );
+                );
     };
 
     const contentText = () => {
         return (
-            <div>
-                <div className="Content-text">
-                    {props.content}
+                <div>
+                    <div className="Content-text">
+                        {props.content}
+                    </div>
                 </div>
-            </div>
-        );
+                );
     };
 
-    return (
-        <>
-            <LayoutView title={title()} content={contentText()} />
-        </>
-    );
+                return (
+                <>
+                    <LayoutView title={title()} content={contentText()} />
+                </>
+                );
 }

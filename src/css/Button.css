@@ -1,11 +1,16 @@
+button {
+	font-family: 'Pretendard-Regular';
+	cursor: pointer;
+}
+
 .btn-wrapper {
 	margin-left: 5vw;
 	vertical-align: middle;
 }
 
 .btn, .btn2 {
-    font-size: 3vw;
-    font-style: bold;
+    font-size: 2.5vw;
+    font-weight: bold;
 	width: 12.5vw;
 	height: 12.5vw;
     color: white;
@@ -19,7 +24,6 @@
 	border-width: 0.75vw;
 	border-color: #EA5550;
 	background-color: #222A35;
-	color: white;
 }
 
 .btn2 {
@@ -28,6 +32,6 @@
 
 }
 
-.btn:hover, .btn2:hover, .btn3:hover {
+.btn:hover, .btn2:hover {
 	background-color: #424953;
 }

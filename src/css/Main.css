@@ -49,7 +49,7 @@ Main  {
 	-moz-border-radius: 20vw 0 0 0;
 	-webkit-border-radius: 20vw 0 0 0;
 	background-image: linear-gradient(#222A35, #222A35),
-    linear-gradient(to right, #646a7280, #898d9380, #646a7280);
+    linear-gradient(to right, #646a7266, #898d9366, #646a7266);
 
 }
 
@@ -60,5 +60,5 @@ Main  {
 	-moz-border-radius: 25vw 0 0 0;
 	-webkit-border-radius: 25vw 0 0 0;
 	background-image: linear-gradient(#222A35, #222A35),
-    linear-gradient(to right, #42495380, #646a7280, #42495380);
+    linear-gradient(to right, #42495366, #646a7266, #42495366);
 }
