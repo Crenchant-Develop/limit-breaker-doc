@@ -53,7 +53,10 @@ function App() {
             );
         
         default : return (
-            <>컴포넌트 범위 밖입니다. App.js의 해당하는 case문에 컴포넌트를 추가해주세요.</>
+            <div>
+                컴포넌트 범위 밖입니다. App.js의 해당하는 case문에 컴포넌트를 추가해주세요.<br/>
+                현재 currentViewState 값: {currentViewState}
+            </div>
         );
     }
 }
