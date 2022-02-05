@@ -1,35 +1,34 @@
 import React from "react";
 import store from '../index';
-import { stateViewEnum, CurrentView } from "../stateViewEnum";
+import { stateViewEnum, CurrentView, SetChangeViewState } from "../stateViewEnum";
  
 function LinkSystem(e) {
-    this.props.onClick(this.state.value);
-    store.dispatch({ type: 'SYSTEM', value: this.state.value })
-    window.location.href = "https://drive.google.com/file/d/1o_ojIi9-_O11OPSI4iiDv8JNoA0Q_ioc/view";
+    //SetChangeViewState(dispatch, value);
+    //window.location.href = "https://drive.google.com/file/d/1o_ojIi9-_O11OPSI4iiDv8JNoA0Q_ioc/view";
 }
 
 function LinkStage(e) {
-    window.location.href = "https://drive.google.com/file/d/1vzDRf8j-ZTqiW9PFUX40VPQu8L22S8vb/view";
+    //window.location.href = "https://drive.google.com/file/d/1vzDRf8j-ZTqiW9PFUX40VPQu8L22S8vb/view";
 }
 
 function LinkGimmick(e) {
-    window.location.href = "https://drive.google.com/file/d/1NZCicidAcOkM4gvw9BXMtmCvYHwrAUC7/view";
+    //window.location.href = "https://drive.google.com/file/d/1NZCicidAcOkM4gvw9BXMtmCvYHwrAUC7/view";
 }
 
 function LinkGUI(e) {
-    window.location.href = "https://drive.google.com/file/d/1M2A5GXP_tqQScn_sKRGP2Trhp2I-tIux/view";
+    //window.location.href = "https://drive.google.com/file/d/1M2A5GXP_tqQScn_sKRGP2Trhp2I-tIux/view";
 }
 
 function LinkArt(e) {
-    window.location.href = "https://drive.google.com/file/d/1j4PDiv3tLgS2xJ9UEaR8zHyL1o0sIHXx/view";
+    //window.location.href = "https://drive.google.com/file/d/1j4PDiv3tLgS2xJ9UEaR8zHyL1o0sIHXx/view";
 }
 
 function LinkStory(e) {
-    window.location.href = "https://drive.google.com/file/d/1j4PDiv3tLgS2xJ9UEaR8zHyL1o0sIHXx/view";
+    //window.location.href = "https://drive.google.com/file/d/1j4PDiv3tLgS2xJ9UEaR8zHyL1o0sIHXx/view";
 }
 
 function LinkSettings(e) {
-    window.location.href = "https://drive.google.com/file/d/1rkNaJafy8DYaxJPLKdcu2y5a5YyjdgWc/view";
+    //window.location.href = "https://drive.google.com/file/d/1rkNaJafy8DYaxJPLKdcu2y5a5YyjdgWc/view";
 }
 
 export function ContentsButton() {

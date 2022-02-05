@@ -42,7 +42,7 @@ function App() {
         case stateViewEnum.intro:
             console.log("인트로: " + currentViewState);
             //2초뒤에 NextView 함수를 호출함
-            setTimeout(()=>NextView(dispatch), 2000);
+            setTimeout(()=>NextView(dispatch, currentViewState), 2000);
             style.backgroundColor = '#222A35';
             return (
                 <div style={style}>
@@ -50,8 +50,8 @@ function App() {
                 </div>
             );
         
-        case stateViewEnum.system:
-            console.log("목차: " + currentViewState);
+        case stateViewEnum.main:
+            console.log("메인: " + currentViewState);
             return (
                 <div className="FullPage" style={style}>
                     <ScrollElements />
