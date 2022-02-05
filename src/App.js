@@ -34,12 +34,13 @@ function App() {
     }
 
     //currentView선언과 동시에 초기값은 stateViewEnum.intro로 설정. 0과 같은 값임.
-    let currentView = useSelector(initState);
+    let currentViewState = useSelector(initState);
     const dispatch = useDispatch();
 
-    switch(currentView)
+    switch(currentViewState)
     {
         case stateViewEnum.intro:
+            console.log("인트로: " + currentViewState);
             //2초뒤에 NextView 함수를 호출함
             setTimeout(()=>NextView(dispatch), 2000);
             style.backgroundColor = '#222A35';
@@ -50,6 +51,7 @@ function App() {
             );
         
         case stateViewEnum.system:
+            console.log("목차: " + currentViewState);
             return (
                 <div className="FullPage" style={style}>
                     <ScrollElements />

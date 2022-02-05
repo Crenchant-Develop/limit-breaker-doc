@@ -15,21 +15,28 @@ export const stateViewEnum = {
 export var CurrentView = { value : 0 };
 
 export function OnChangeView(state = CurrentView.value, action) {
-
-    if(action.type === 1){
-        CurrentView.value = action.type;
-        console.log(state);
-        return CurrentView.value;
+    const setCurrentView = async function ()
+    {        
+        CurrentView.value = await state;
+        console.log("현재 상태: " + state);
     }
-    return CurrentView.value;
+    if(action.type === 1){
+        state = action.type;
+        setCurrentView();
+        return state;
+    }
+    return state;
 }
 
-// export function OnChangeView(state = { value: 0 })
-// {
-//     return;
-// }
+export function SetChangeViewState(dispatch, state)
+{
+    dispatch({ type: state });
+    return;
+}
 
 export function NextView(dispatch) {
-    dispatch({ type: CurrentView.value++ })
+    let state = { type: CurrentView.value++ };
+    dispatch(state);
+    console.log("NextView 호출. 현재 상태: "+(state.type));
     return;
 }
