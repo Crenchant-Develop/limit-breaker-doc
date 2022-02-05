@@ -18,7 +18,9 @@ export const store = createStore(OnChangeView, window.__REDUX_DEVTOOLS_EXTENSION
 
 export function OnChangeView(state = stateViewEnum.intro, action) 
 {
-    for(let i = stateViewEnum.intro; i < 7; i++)
+    const count = Object.keys(stateViewEnum).length;
+    console.log("enum 총 개수:" + count);
+    for(let i = stateViewEnum.intro; i < count -1; i++)
     {
         if(action.type == i)
         {
