@@ -21,9 +21,9 @@ export function OnChangeView(currentView = CurrentView, action)
             return CurrentView++;
         case 'prev':
             return CurrentView--;
+        default:    
+            return CurrentView;
     }
-
-    return CurrentView++;
 }
 
 //nextView는 람다 함수임
