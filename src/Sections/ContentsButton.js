@@ -1,11 +1,10 @@
 import React from "react";
+import store from '../index';
 import { stateViewEnum, CurrentView } from "../stateViewEnum";
-import { Link, Route } from 'react-router-dom';
-import { Story } from './Story';
-
+ 
 function LinkSystem(e) {
-    //CurrentView = stateViewEnum.system;
-    console.log("시스템 클릭");
+    this.props.onClick(this.state.value);
+    store.dispatch({ type: 'SYSTEM', value: this.state.value })
     window.location.href = "https://drive.google.com/file/d/1o_ojIi9-_O11OPSI4iiDv8JNoA0Q_ioc/view";
 }
 
@@ -36,10 +35,10 @@ function LinkSettings(e) {
 export function ContentsButton() {
     return (
         <div className="btn-wrapper">
-            <button className="btn2" onClick={LinkSystem}>시스템</button>
+            <button className="btn2" onClick={LinkSystem.bind(this)}>시스템</button>
             <button className="btn" onClick={LinkStage}>스테이지</button>
             <button className="btn2" onClick={LinkGimmick}>기믹</button>
-            <button className="btn" style={{visibility: "hidden"}}></button>
+            <button className="btn" style={{ visibility: "hidden" }}></button>
             <br />
             <button className="btn" onClick={LinkGUI}>GUI</button>
             <button className="btn2" onClick={LinkArt}>아트</button>

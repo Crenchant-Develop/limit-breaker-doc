@@ -15,6 +15,7 @@ export default function ScrollElements() {
             anchors={anchors}
             navigation
             navigationTooltips={anchors}
+            licenseKey='YOUR_KEY_HERE'
             // onLeave={(origin, destination, direction) => {
             //     console.log("onLeave event", { origin, destination, direction });
             // }}

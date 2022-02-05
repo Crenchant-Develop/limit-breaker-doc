@@ -12,22 +12,20 @@ export const stateViewEnum = {
 
 export let CurrentView = 0;
 
-export function OnChangeView(currentView = CurrentView, action)
-{
+export function OnChangeView(state = { value: 0 }, action) {
     console.log(action);
-    switch(action.type)
-    {
+    switch (action.type) {
         case 'next':
             return CurrentView++;
         case 'prev':
             return CurrentView--;
-        default:    
+        default:
             return CurrentView;
     }
 }
 
 //nextView는 람다 함수임
 export function NextView(dispatch) {
-    dispatch( {type : 'next'} );
+    dispatch({ type: 'next' });
     return;
 }
