@@ -21,10 +21,8 @@ export default function ScrollElements() {
             // }}
              render={({ state, fullpageApi }) => {
             //     console.log("render prop change", state, fullpageApi); // eslint-disable-line no-console
-
                 return (
                     <div>
-
                         <Section>
                             <Contents />
                         </Section>

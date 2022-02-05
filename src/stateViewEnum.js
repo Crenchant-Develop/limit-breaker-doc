@@ -14,11 +14,16 @@ export let CurrentView = 0;
 
 export function OnChangeView(state = { value: 0 }, action) {
     console.log(action);
+    if (state === undefined) {
+        return { value: 0 };
+    }
     switch (action.type) {
         case 'next':
             return CurrentView++;
         case 'prev':
             return CurrentView--;
+        case 'SYSTEM':
+            return { value: 1 };
         default:
             return CurrentView;
     }
