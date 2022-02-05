@@ -1,3 +1,5 @@
+import { useDispatch, useSelector } from 'react-redux';
+
 //Enum 선언
 export const stateViewEnum = {
     intro: 0,
@@ -10,27 +12,24 @@ export const stateViewEnum = {
     settings: 7,
 };
 
-export let CurrentView = 0;
+export var CurrentView = { value : 0 };
 
-export function OnChangeView(state = { value: 0 }, action) {
-    console.log(action);
-    if (state === undefined) {
-        return { value: 0 };
+export function OnChangeView(state = CurrentView.value, action) {
+
+    if(action.type === 1){
+        CurrentView.value = action.type;
+        console.log(state);
+        return CurrentView.value;
     }
-    switch (action.type) {
-        case 'next':
-            return CurrentView++;
-        case 'prev':
-            return CurrentView--;
-        case 'SYSTEM':
-            return { value: 1 };
-        default:
-            return CurrentView;
-    }
+    return CurrentView.value;
 }
 
-//nextView는 람다 함수임
+// export function OnChangeView(state = { value: 0 })
+// {
+//     return;
+// }
+
 export function NextView(dispatch) {
-    dispatch({ type: 'next' });
+    dispatch({ type: CurrentView.value++ })
     return;
 }
