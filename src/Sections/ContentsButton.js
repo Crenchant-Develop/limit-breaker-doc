@@ -1,8 +1,11 @@
 import React from "react";
+import { stateViewEnum, CurrentView } from "../stateViewEnum";
 import { Link, Route } from 'react-router-dom';
 import { Story } from './Story';
 
 function LinkSystem(e) {
+    //CurrentView = stateViewEnum.system;
+    console.log("시스템 클릭");
     window.location.href = "https://drive.google.com/file/d/1o_ojIi9-_O11OPSI4iiDv8JNoA0Q_ioc/view";
 }
 
@@ -33,15 +36,15 @@ function LinkSettings(e) {
 export function ContentsButton() {
     return (
         <div className="btn-wrapper">
-            <button class="btn2" onClick={LinkSystem}>시스템</button>
-            <button class="btn" onClick={LinkStage}>스테이지</button>
-            <button class="btn2" onClick={LinkGimmick}>기믹</button>
-            <button class="btn" style={{visibility: "hidden"}}></button>
+            <button className="btn2" onClick={LinkSystem}>시스템</button>
+            <button className="btn" onClick={LinkStage}>스테이지</button>
+            <button className="btn2" onClick={LinkGimmick}>기믹</button>
+            <button className="btn" style={{visibility: "hidden"}}></button>
             <br />
-            <button class="btn" onClick={LinkGUI}>GUI</button>
-            <button class="btn2" onClick={LinkArt}>아트</button>
-            <button class="btn" onClick={LinkStory}>스토리</button>
-            <button class="btn2" onClick={LinkSettings}>배경 설정</button>
+            <button className="btn" onClick={LinkGUI}>GUI</button>
+            <button className="btn2" onClick={LinkArt}>아트</button>
+            <button className="btn" onClick={LinkStory}>스토리</button>
+            <button className="btn2" onClick={LinkSettings}>배경 설정</button>
         </div>
     );
 }

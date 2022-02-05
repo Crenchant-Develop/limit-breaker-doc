@@ -8,7 +8,7 @@ export function Contents() {
             <header className="Main-header">
                 <img src={circle} className="Main-circle" alt="circle" />
                 <div className="Text-box">
-                    Limit Breaker
+                    {`　　Limit Breaker　　`}
                 </div>
                 <div className="Text-box-small">
                     2022-02-03

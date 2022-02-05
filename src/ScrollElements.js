@@ -9,17 +9,17 @@ import { ContentsButton } from "./Sections/ContentsButton";
 
 export const anchors = ["main", "01", "02", "03"];
 
-export default function Sections() {
+export default function ScrollElements() {
     return (
         <ReactFullpage
             anchors={anchors}
             navigation
             navigationTooltips={anchors}
-            onLeave={(origin, destination, direction) => {
-                console.log("onLeave event", { origin, destination, direction });
-            }}
-            render={({ state, fullpageApi }) => {
-                console.log("render prop change", state, fullpageApi); // eslint-disable-line no-console
+            // onLeave={(origin, destination, direction) => {
+            //     console.log("onLeave event", { origin, destination, direction });
+            // }}
+             render={({ state, fullpageApi }) => {
+            //     console.log("render prop change", state, fullpageApi); // eslint-disable-line no-console
 
                 return (
                     <div>

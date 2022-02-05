@@ -6,7 +6,7 @@ export function MainContext(props) {
     const title = () => {
         return (
             <div>
-                <div class="Title-flex-container">
+                <div className="Title-flex-container">
                     <div className="Number">
                         <div className="Number-circle" alt="numberCircle"
                             style={{
@@ -21,34 +21,32 @@ export function MainContext(props) {
 
                     <div className="Title-bar">
                         <div className="Title-text">
-                            <div className="Title-text">
-                                {props.title}
-                            </div>
+                            {props.title}
                         </div>
                     </div>
 
-                        <div className="quarter-circle">
-                            <div className="quarter-circle-small">
-                            </div>
+                    <div className="quarter-circle">
+                        <div className="quarter-circle-small">
                         </div>
                     </div>
                 </div>
-                );
+            </div>
+        );
     };
 
     const contentText = () => {
         return (
-                <div>
-                    <div className="Content-text">
-                        {props.content}
-                    </div>
+            <div>
+                <div className="Content-text">
+                    {props.content}
                 </div>
-                );
+            </div>
+        );
     };
 
-                return (
-                <>
-                    <LayoutView title={title()} content={contentText()} />
-                </>
-                );
+    return (
+        <>
+            <LayoutView title={title()} content={contentText()} />
+        </>
+    );
 }
