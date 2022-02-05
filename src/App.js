@@ -18,11 +18,6 @@ import './/css/Title.css';
 import './/css/Image.css';
 import { stateViewEnum, CurrentView, OnChangeView, NextView } from "./stateViewEnum";
 
-const style = {
-    backgroundColor: '#222A35',
-    color: 'white'
-};
-
 
 //이제 스플래시 인트로 Logo 화면이 구현되었습니다.
 //state 변수인 isIntro가 2초 뒤 true로 변하면서 본문이 보이게 변경했습니다.
@@ -39,15 +34,18 @@ function App() {
             console.log("인트로: " + currentViewState);
             //2초뒤에 NextView 함수를 호출함
             setTimeout(() => NextView(currentViewState), 2000);
-            style.backgroundColor = '#222A35';
             return (
-                <div style={style}>
-                    <MainView style={style} />
+                <div style={{backgroundColor : '#000000'}}>
+                    <MainView/>
                 </div>
             );
 
         case stateViewEnum.main:
             console.log("메인: " + currentViewState);
+            const style = {
+                backgroundColor: '#222A35',
+                color: 'white'
+            };
             return (
                 <div className="FullPage" style={style}>
                     <ScrollElements />
