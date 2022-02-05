@@ -18,15 +18,10 @@ export const store = createStore(OnChangeView, window.__REDUX_DEVTOOLS_EXTENSION
 
 export function OnChangeView(state = stateViewEnum.intro, action) 
 {
-    const count = Object.keys(stateViewEnum).length;
-    console.log("enum 총 개수:" + count);
-    for(let i = stateViewEnum.intro; i < count -1; i++)
+    if(Number.isInteger(action.type))
     {
-        if(action.type == i)
-        {
-            state = action.type;
-            return state;
-        }
+        state = action.type;
+        return state;
     }
     return state;
 }
