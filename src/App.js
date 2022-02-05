@@ -28,28 +28,24 @@ const style = {
 //state 변수인 isIntro가 2초 뒤 true로 변하면서 본문이 보이게 변경했습니다.
 function App() {
 
-    const initState = function(state)
-    {
+    const initState = function (state) {
         return state;
     }
-
     //currentView선언과 동시에 초기값은 stateViewEnum.intro로 설정. 0과 같은 값임.
     let currentViewState = useSelector(initState);
-    const dispatch = useDispatch();
 
-    switch(currentViewState)
-    {
+    switch (currentViewState) {
         case stateViewEnum.intro:
             console.log("인트로: " + currentViewState);
             //2초뒤에 NextView 함수를 호출함
-            setTimeout(()=>NextView(dispatch, currentViewState), 2000);
+            setTimeout(() => NextView(currentViewState), 2000);
             style.backgroundColor = '#222A35';
             return (
                 <div style={style}>
                     <MainView style={style} />
                 </div>
             );
-        
+
         case stateViewEnum.main:
             console.log("메인: " + currentViewState);
             return (
@@ -57,6 +53,10 @@ function App() {
                     <ScrollElements />
                 </div>
             );
+        
+        default : return (
+            <>컴포넌트 범위 밖입니다. App.js의 해당하는 case문에 컴포넌트를 추가해주세요.</>
+        );
     }
 }
 

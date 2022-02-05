@@ -3,7 +3,7 @@ import store from '../index';
 import { stateViewEnum, CurrentView, SetChangeViewState } from "../stateViewEnum";
  
 function LinkSystem(e) {
-    //SetChangeViewState(dispatch, value);
+    SetChangeViewState(stateViewEnum.system);
     //window.location.href = "https://drive.google.com/file/d/1o_ojIi9-_O11OPSI4iiDv8JNoA0Q_ioc/view";
 }
 

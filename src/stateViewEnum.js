@@ -1,4 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
+import { createStore } from 'redux';
 
 //Enum 선언
 export const stateViewEnum = {
@@ -13,6 +14,8 @@ export const stateViewEnum = {
     settings: 7,
 };
 
+export const store = createStore(OnChangeView, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+
 export function OnChangeView(state = stateViewEnum.intro, action) 
 {
     for(let i = stateViewEnum.intro; i < 7; i++)
@@ -26,15 +29,16 @@ export function OnChangeView(state = stateViewEnum.intro, action)
     return state;
 }
 
-export function SetChangeViewState(dispatch, state)
+export function SetChangeViewState(value)
 {
-    dispatch({ type: state });
+    store.dispatch({ type: value });
+    console.log("SetChangeViewState 호출. 현재 상태: " + (value));
     return;
 }
 
-export function NextView(dispatch, value)
+export function NextView(value)
 {
-    dispatch({ type: ++value });
+    store.dispatch({ type: ++value });
     console.log("NextView 호출. 현재 상태: " + (value));
     return;
 }
