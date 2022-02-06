@@ -21,3 +21,10 @@
     font-size: 2vw;
     color: black;
 }
+
+.code-box {
+    width: 55%;
+    background-color: #2f3136;
+    margin: 1rem;
+    padding: 1rem;
+}

@@ -5,6 +5,7 @@ import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverf
 
 import MainView from "./Sections/MainView";
 import SectionsEntry from "./SectionsEntry";
+import SectionsSystem from "./SectionsSystem";
 import SectionsStage from "./SectionsStage";
 import SectionsGimmick from "./SectionsGimmick";
 import SectionsGUI from "./SectionsGUI";
@@ -60,6 +61,15 @@ function App() {
             return (
                 <div className="FullPage" style={style}>
                     <SectionsEntry />
+                </div>
+            );
+
+        case stateViewEnum.system:
+            console.log("시스템: " + currentViewState);
+
+            return (
+                <div className="FullPage" style={style}>
+                    <SectionsSystem />
                 </div>
             );
 

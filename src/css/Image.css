@@ -21,6 +21,12 @@
 	left: 65vw;
 }
 
+.Image-impactable {
+	position: absolute;
+	top: 25vh;
+	left: 57.5vw;
+}
+
 .Storyboard-wrapper {
 	width: 879px;
 	margin: 0 auto;
