@@ -8,7 +8,7 @@ function GUI() {
                 스테이지 선택, 오브 강화 등 다양한 것들을 선택할 수 있다.
             </div>
             <div className="Image">
-                <img className="Image-right" src={require('../img/mainPage.png')} alt="Options" />
+                <img className="Image-right" src={require('../img/mainPage.png')} alt="GUI" />
             </div>
         </>
     );
@@ -22,7 +22,7 @@ function GUI2() {
                 스테이지의 이름과 상징물을 내세움으로써 컨셉을 강조하는 것이 목적이다.
             </div>
             <div className="Image">
-                <img className="Image-right" src={require('../img/mainPage2.png')} alt="Options" />
+                <img className="Image-right" src={require('../img/mainPage2.png')} alt="GUI" />
             </div>
         </>
     );
@@ -37,7 +37,7 @@ function GUI3() {
                 그리고 그 아래쪽에 있는 현재 레벨 등으로 편한 강화가 가능하게 한다.
             </div>
             <div className="Image">
-                <img className="Image-right" src={require('../img/options.png')} alt="Options" />
+                <img className="Image-right" src={require('../img/options.png')} alt="GUI" />
             </div>
         </>
     );
@@ -53,7 +53,7 @@ function GUI4() {
                 직관적으로 보여주면서 완충될 시 자동으로 날려진다는 것을 강조한다.
             </div>
             <div className="Image">
-                <img className="Image-right" src={require('../img/gaugeUI.png')} alt="Options" />
+                <img className="Image-right" src={require('../img/gaugeUI.png')} alt="GUI" />
             </div>
         </>
     );
@@ -67,7 +67,7 @@ function GUI5() {
                 짙은 회색으로 보이게 해 비어 있는 체력이라는 것을 각인시킨다.
             </div>
             <div className="Image">
-                <img className="Image-right" src={require('../img/heartUI.png')} alt="Options" />
+                <img className="Image-right" src={require('../img/heartUI.png')} alt="GUI" />
             </div>
         </>
     );
@@ -81,7 +81,7 @@ function GUI6() {
                 보스가 나타났다는 것을 효율적으로 각인시키고 가시성도 높인다.
             </div>
             <div className="Image">
-                <img className="Image-right" src={require('../img/bossHealthUI.png')} alt="Options" />
+                <img className="Image-right" src={require('../img/bossHealthUI.png')} alt="GUI" />
             </div>
         </>
     );

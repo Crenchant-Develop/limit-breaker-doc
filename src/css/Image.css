@@ -11,8 +11,9 @@
 }
 
 .Image-right {
-	float: right;
-	transform: translate(0%, -50%);
+	position: absolute;
+	top: 40vh;
+	left: 65vw;
 }
 
 .Storyboard-wrapper {

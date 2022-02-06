@@ -33,7 +33,7 @@ function Settings3() {
             꿈의 힘이 내재되어 있으며 꿈을 실체화하는 능력이 있어<br />
             드리미아 왕국을 행복한 기억의 왕국으로 유지시킬 수 있었다.
             <div className="Image">
-                <img className="Image-right" src={require('../img/pureOrb.png')} alt="Options" />
+                <img className="Image-right" src={require('../img/pureOrb.png')} alt="Settings" />
             </div>
         </div>
     );
@@ -49,7 +49,7 @@ function Settings4() {
             영향으로 주도권이 뺏기거나 새롭게 창조된 것들이다. 또한 왕이 무아르트를<br />
             봉인한 계기도, 무아르트가 본격적으로 타락한 것도 이 다크 오브 때문이다.
             <div className="Image">
-                <img className="Image-right" src={require('../img/darkOrb.png')} alt="Options" />
+                <img className="Image-right" src={require('../img/darkOrb.png')} alt="Settings" />
             </div>
         </div>
     );
@@ -63,7 +63,7 @@ function Settings5() {
             사람이나 물건이 거울 앞으로 가면 바로 거울 속에 삼켜지며,<br />
             거울 앞에 다가오게 만들기 위해 사람에게 <mark>신기루를 보여준다.</mark>
             <div className="Image">
-                <img className="Image-right" src={require('../img/mirror.png')} alt="Options" />
+                <img className="Image-right" src={require('../img/mirror.png')} alt="Settings" />
             </div>
         </div>
     );
@@ -90,7 +90,7 @@ function Settings7() {
             <mark>퓨어 오브를 갖고 있지 않은 사람</mark>이나 물건이 거울 세계 안으로 들어오면<br />
             임팩테이블이라는 존재로 변하여 다크 오브에 의해 철저히 조종당한다.
             <div className="Image">
-                <img className="Image-right" src={require('../img/mirrorWorld.jpg')} alt="Options" />
+                <img className="Image-right" src={require('../img/mirrorWorld.png')} alt="Settings" />
             </div>
         </div>
     );
