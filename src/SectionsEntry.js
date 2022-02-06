@@ -6,7 +6,7 @@ import { MainContext } from "./Sections/MainContext";
 import { Section } from "./Section";
 import { ContentsButton } from "./Sections/ContentsButton";
 
-export const anchors = ["main", "01", "02", "03"];
+export const anchors = ["main", "m01", "m02", "m03"];
 
 export default function SectionsEntry() {
     return (
