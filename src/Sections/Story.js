@@ -1,29 +1,4 @@
 import React from "react";
-import StoryBoard from '../img/story/001.png';
-import StoryBoard2 from '../img/story/002.png';
-import StoryBoard3 from '../img/story/003.png';
-import StoryBoard4 from '../img/story/004.png';
-import StoryBoard5 from '../img/story/005.png';
-import StoryBoard6 from '../img/story/006.png';
-import StoryBoard7 from '../img/story/007.png';
-import StoryBoard8 from '../img/story/008.png';
-import StoryBoard9 from '../img/story/009.png';
-import StoryBoard10 from '../img/story/010.png';
-import StoryBoard11 from '../img/story/011.png';
-import StoryBoard12 from '../img/story/012.png';
-import StoryBoard13 from '../img/story/013.png';
-import StoryBoard14 from '../img/story/014.png';
-import StoryBoard15 from '../img/story/015.png';
-import StoryBoard16 from '../img/story/016.png';
-import StoryBoard17 from '../img/story/017.png';
-import StoryBoard18 from '../img/story/018.png';
-import StoryBoard19 from '../img/story/019.png';
-import StoryBoard20 from '../img/story/020.png';
-import StoryBoard21 from '../img/story/021.png';
-import StoryBoard22 from '../img/story/022.png';
-import StoryBoard23 from '../img/story/023.png';
-import StoryBoard24 from '../img/story/024.png';
-import StoryBoard25 from '../img/story/025.png';
 
 export function StoryContext1() {
     return (
@@ -56,13 +31,13 @@ export function Story() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={StoryBoard} alt="Storyboard" />
+                    <img src={require('../img/story/001.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard2} alt="Storyboard" />
+                    <img src={require('../img/story/002.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard3} alt="Storyboard" />
+                    <img src={require('../img/story/003.png')} alt="Storyboard" />
                 </div>
             </div>
         </>
@@ -79,13 +54,13 @@ export function Story2() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={StoryBoard4} alt="Storyboard" />
+                    <img src={require('../img/story/004.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard5} alt="Storyboard" />
+                    <img src={require('../img/story/005.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard6} alt="Storyboard" />
+                    <img src={require('../img/story/006.png')} alt="Storyboard" />
                 </div>
             </div>
         </>
@@ -102,13 +77,13 @@ export function Story3() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={StoryBoard7} alt="Storyboard" />
+                    <img src={require('../img/story/007.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard8} alt="Storyboard" />
+                    <img src={require('../img/story/008.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard9} alt="Storyboard" />
+                    <img src={require('../img/story/009.png')} alt="Storyboard" />
                 </div>
             </div>
         </>
@@ -124,13 +99,13 @@ export function Story4() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={StoryBoard10} alt="Storyboard" />
+                    <img src={require('../img/story/010.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard11} alt="Storyboard" />
+                    <img src={require('../img/story/011.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard12} alt="Storyboard" />
+                    <img src={require('../img/story/012.png')} alt="Storyboard" />
                 </div>
             </div>
         </>
@@ -147,13 +122,13 @@ export function Story5() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={StoryBoard13} alt="Storyboard" />
+                    <img src={require('../img/story/013.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard14} alt="Storyboard" />
+                    <img src={require('../img/story/014.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard15} alt="Storyboard" />
+                    <img src={require('../img/story/015.png')} alt="Storyboard" />
                 </div>
             </div>
         </>
@@ -170,13 +145,13 @@ export function Story6() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={StoryBoard16} alt="Storyboard" />
+                    <img src={require('../img/story/016.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard5} alt="Storyboard" />
+                    <img src={require('../img/story/005.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard17} alt="Storyboard" />
+                    <img src={require('../img/story/017.png')} alt="Storyboard" />
                 </div>
             </div>
         </>
@@ -193,13 +168,13 @@ export function Story7() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={StoryBoard18} alt="Storyboard" />
+                    <img src={require('../img/story/018.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard19} alt="Storyboard" />
+                    <img src={require('../img/story/019.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard20} alt="Storyboard" />
+                    <img src={require('../img/story/020.png')} alt="Storyboard" />
                 </div>
             </div>
         </>
@@ -216,13 +191,13 @@ export function Story8() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={StoryBoard21} alt="Storyboard" />
+                    <img src={require('../img/story/021.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard22} alt="Storyboard" />
+                    <img src={require('../img/story/022.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard23} alt="Storyboard" />
+                    <img src={require('../img/story/023.png')} alt="Storyboard" />
                 </div>
             </div>
         </>
@@ -239,13 +214,13 @@ export function Story9() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={StoryBoard24} alt="Storyboard" />
+                    <img src={require('../img/story/024.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard11} alt="Storyboard" />
+                    <img src={require('../img/story/011.png')} alt="Storyboard" />
                 </div>
                 <div className="Storyboard">
-                    <img src={StoryBoard25} alt="Storyboard" />
+                    <img src={require('../img/story/025.png')} alt="Storyboard" />
                 </div>
             </div>
         </>
