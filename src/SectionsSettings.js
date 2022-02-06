@@ -4,7 +4,7 @@ import { MainContext } from "./Sections/MainContext";
 import { Section } from "./Section";
 import { Settings, Settings2, Settings3, Settings4, Settings5, Settings6, Settings7, Settings8, Settings9, Settings10, Settings11 } from "./Sections/Settings";
 
-export const anchors = ["st01", "st02", "st03", "st04", "st05", "st06", "st07", "st08", "st09", "st10", "st11"];
+export const anchors = ["se01", "se02", "se03", "se04", "se05", "se06", "se07", "se08", "se09", "se10", "se11"];
 
 export default function SectionsEntry() {
     return (
