@@ -503,6 +503,122 @@ function Story21() {
     );
 }
 
+function Story22() {
+    return (
+        <>
+            <div className="Main-text-center">
+                그렇게 <mark>퓨어 오브와 다크 오브, 트라움과 무아르트</mark>는 최후의 결전을 시작했다.<br />
+                퓨어 오브가 <mark>원래의 힘을 거의 되찾았음</mark>에도, 다크 오브의 힘으로 인해<br />
+                <mark>끝없이 연속적으로 다가오는 임팩테이블</mark>을 막는 것은 분명히 버거웠다.
+            </div>
+            <div className="Storyboard-wrapper">
+                <div className="Storyboard">
+                    <img src={require('../img/story/050.png')} alt="Storyboard" />
+                </div>
+                <div className="Storyboard">
+                    <img src={require('../img/story/051.png')} alt="Storyboard" />
+                </div>
+                <div className="Storyboard">
+                    <img src={require('../img/story/029.png')} alt="Storyboard" />
+                </div>
+            </div>
+        </>
+    );
+}
+
+function Story23() {
+    return (
+        <>
+            <div className="Main-text-center">
+                하지만 그럼에도 불구하고 위선은 진실을 이길 수 없었고, 무아르트도<br />
+                패배를 인정하고는 달콤한 안개와 현혹의 거울들을 전부 없앴다.<br />
+                트라움은 마지막으로 그들을 향해 퓨어 오브의 힘인 <mark>정화</mark>를 발동했다.
+            </div>
+            <div className="Storyboard-wrapper">
+                <div className="Storyboard">
+                    <img src={require('../img/story/052.png')} alt="Storyboard" />
+                </div>
+                <div className="Storyboard">
+                    <img src={require('../img/story/053.png')} alt="Storyboard" />
+                </div>
+                <div className="Storyboard">
+                    <img src={require('../img/story/054.png')} alt="Storyboard" />
+                </div>
+            </div>
+        </>
+    );
+}
+
+function Story24() {
+    return (
+        <>
+            <div className="Main-text-center">
+                정화된 자들은 죄를 뉘우친 뒤 트라움에게 용서를 구했고 자신들도 왕국의<br />
+                백성이 되게 해달라고 했다. 악몽으로 몰리며 미움받았던 삶과<br />
+                무아르트의 숨겨진 과거 등을 들은 트라움은 끝내 <mark>그들을 용서하기로 했다.</mark>
+            </div>
+            <div className="Storyboard-wrapper">
+                <div className="Storyboard">
+                    <img src={require('../img/story/003.png')} alt="Storyboard" />
+                </div>
+                <div className="Storyboard">
+                    <img src={require('../img/story/055.png')} alt="Storyboard" />
+                </div>
+                <div className="Storyboard">
+                    <img src={require('../img/story/056.png')} alt="Storyboard" />
+                </div>
+            </div>
+        </>
+    );
+}
+
+function Story25() {
+    return (
+        <>
+            <div className="Main-text-center">
+                왕자는 홀로 성으로 돌아갔다. 그들을 용서하기는 했지만 왕의 허락 없이는<br />
+                그들을 받아들일 수 없는 데다가 조금만 더 늦었으면 왕국은 얼마 지나지 않아<br />
+                어둠에 잠식됐을 테니까. 왕자는 그렇게 고민하던 중 왕성에 거의 도착했다.
+            </div>
+            <div className="Storyboard-wrapper">
+                <div className="Storyboard">
+                    <img src={require('../img/story/044.png')} alt="Storyboard" />
+                </div>
+                <div className="Storyboard">
+                    <img src={require('../img/story/042.png')} alt="Storyboard" />
+                </div>
+                <div className="Storyboard">
+                    <img src={require('../img/story/043.png')} alt="Storyboard" />
+                </div>
+            </div>
+        </>
+    );
+}
+
+function Story26() {
+    return (
+        <>
+            <div className="Main-text-center">
+                왕자가 성으로 돌아가자 예상대로 왕이 기다리고 있었다. 비록 멋대로<br />
+                떠난 잘못은 있지만, 그의 공적은 역사에 길이길이 남게 될 것이다.<br />
+                그리고 드리미아 왕국의 모습도, 분명 <mark>지금과는 좀 달라져 있을 것이다.</mark>
+            </div>
+            <div className="Storyboard-wrapper">
+                <div className="Storyboard">
+                    <img src={require('../img/story/057.png')} alt="Storyboard" />
+                </div>
+                <div className="Storyboard">
+                    <img src={require('../img/story/058.png')} alt="Storyboard" />
+                </div>
+                <div className="Storyboard">
+                    <img src={require('../img/story/002.png')} alt="Storyboard" />
+                </div>
+            </div>
+        </>
+    );
+}
+
 export { StoryContext1, StoryContext2 };
 export { Story, Story2, Story3, Story4, Story5, Story6, Story7, Story8, Story9, Story10 };
-export { Story11, Story12, Story13, Story14, Story15, Story16, Story17, Story18, Story19, Story20, Story21 };
+export { Story11, Story12, Story13, Story14, Story15, Story16, Story17, Story18, Story19, Story20 };
+export { Story21, Story22, Story23, Story24, Story25, Story26 };

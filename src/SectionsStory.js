@@ -4,9 +4,15 @@ import { MainContext } from "./Sections/MainContext";
 import { Section } from "./Section";
 import { StoryContext1, StoryContext2 } from "./Sections/Story";
 import { Story, Story2, Story3, Story4, Story5, Story6, Story7, Story8, Story9, Story10 } from "./Sections/Story";
-import { Story11, Story12, Story13, Story14, Story15, Story16, Story17, Story18, Story19, Story20, Story21 } from "./Sections/Story";
+import { Story11, Story12, Story13, Story14, Story15, Story16, Story17, Story18, Story19, Story20 } from "./Sections/Story";
+import { Story21, Story22, Story23, Story24, Story25, Story26 } from "./Sections/Story";
 
-export const anchors = ["sc01", "sc02", "s01", "s02", "s03", "s04", "s05", "s06", "s07", "s08", "s09", "s10", "s11", "s12", "s13"];
+export const anchors = [
+    "sc01", "sc02",
+    "s01", "s02", "s03", "s04", "s05", "s06", "s07", "s08", "s09", "s10",
+    "s11", "s12", "s13", "s14", "s15", "s16", "s17", "s18", "s19", "s20",
+    "s21", "s22", "s23", "s24", "s25", "s26"
+];
 
 export default function SectionsStory() {
     return (
@@ -108,6 +114,26 @@ export default function SectionsStory() {
 
                         <Section>
                             <MainContext number="23" title="그는 어둠의 왕자였다" content={Story21()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="24" title="최후의 결전에서" content={Story22()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="25" title="악몽은 패배하고" content={Story23()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="26" title="그에게 용서를 구했다" content={Story24()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="27" title="그렇게 평화가 찾아왔다" content={Story25()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="28" title="그리고 인정받았다" content={Story26()} />
                         </Section>
                     </div>
                 );
