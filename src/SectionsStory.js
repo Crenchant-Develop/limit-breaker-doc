@@ -3,9 +3,10 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import { MainContext } from "./Sections/MainContext";
 import { Section } from "./Section";
 import { StoryContext1, StoryContext2 } from "./Sections/Story";
-import { Story, Story2, Story3, Story4, Story5, Story6, Story7, Story8, Story9 } from "./Sections/Story";
+import { Story, Story2, Story3, Story4, Story5, Story6, Story7, Story8, Story9, Story10 } from "./Sections/Story";
+import { Story11, Story12, Story13, Story14, Story15, Story16, Story17, Story18, Story19, Story20, Story21 } from "./Sections/Story";
 
-export const anchors = ["s01", "s02", "s03", "s04", "s05", "s06", "s07", "s08", "s09", "s10", "s11"];
+export const anchors = ["sc01", "sc02", "s01", "s02", "s03", "s04", "s05", "s06", "s07", "s08", "s09", "s10", "s11", "s12", "s13"];
 
 export default function SectionsStory() {
     return (
@@ -59,6 +60,54 @@ export default function SectionsStory() {
 
                         <Section>
                             <MainContext number="11" title="파괴를 결심했다" content={Story9()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="12" title="비록 힘은 약해졌지만" content={Story10()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="13" title="앞으로 나아갔다" content={Story11()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="14" title="그러면서 한탄도 하고" content={Story12()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="15" title="위안도 하면서" content={Story13()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="16" title="이상한 점을 깨닫다가" content={Story14()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="17" title="템푸스 마을로 내려가" content={Story15()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="18" title="혼란스러움을 겪고" content={Story16()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="19" title="정의를 고민하게 됐다" content={Story17()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="20" title="거울 세계를 지나" content={Story18()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="21" title="거짓된 낙원으로" content={Story19()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="22" title="향하던 중 가로막은 자" content={Story20()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="23" title="그는 어둠의 왕자였다" content={Story21()} />
                         </Section>
                     </div>
                 );
