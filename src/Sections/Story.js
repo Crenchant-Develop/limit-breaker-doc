@@ -1,6 +1,6 @@
 import React from "react";
 
-function StoryContext1() {
+function StoryContext() {
     return (
         <div className="Main-text">
             스테이지들의 콘셉트를 확고히 하고, 각 스테이지들이 유기적으로<br />
@@ -618,7 +618,7 @@ function Story26() {
     );
 }
 
-export { StoryContext1, StoryContext2 };
+export { StoryContext, StoryContext2 };
 export { Story, Story2, Story3, Story4, Story5, Story6, Story7, Story8, Story9, Story10 };
 export { Story11, Story12, Story13, Story14, Story15, Story16, Story17, Story18, Story19, Story20 };
 export { Story21, Story22, Story23, Story24, Story25, Story26 };

@@ -1,12 +1,12 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from "react";
-
+import { useSelector } from 'react-redux';
 import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverflow:true
 
 import MainView from "./Sections/MainView";
 import SectionsEntry from "./SectionsEntry";
 import SectionsStory from "./SectionsStory";
-import { useSelector } from 'react-redux';
+import SectionsSettings from "./SectionsSettings";
 
 import './/css/Fade.css';
 import './/css/App.css';
@@ -63,6 +63,14 @@ function App() {
             return (
                 <div className="FullPage" style={style}>
                     <SectionsStory />
+                </div>
+            );
+
+        case stateViewEnum.settings:
+            console.log("배경 설정: " + currentViewState);
+            return (
+                <div className="FullPage" style={style}>
+                    <SectionsSettings />
                 </div>
             );
 

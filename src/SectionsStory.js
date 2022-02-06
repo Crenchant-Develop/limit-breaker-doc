@@ -2,7 +2,7 @@ import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
 import { MainContext } from "./Sections/MainContext";
 import { Section } from "./Section";
-import { StoryContext1, StoryContext2 } from "./Sections/Story";
+import { StoryContext, StoryContext2 } from "./Sections/Story";
 import { Story, Story2, Story3, Story4, Story5, Story6, Story7, Story8, Story9, Story10 } from "./Sections/Story";
 import { Story11, Story12, Story13, Story14, Story15, Story16, Story17, Story18, Story19, Story20 } from "./Sections/Story";
 import { Story21, Story22, Story23, Story24, Story25, Story26 } from "./Sections/Story";
@@ -25,7 +25,7 @@ export default function SectionsStory() {
                 return (
                     <div>
                         <Section>
-                            <MainContext number="01" title="스토리 목표" content={StoryContext1()} />
+                            <MainContext number="01" title="스토리 목표" content={StoryContext()} />
                         </Section>
 
                         <Section>
