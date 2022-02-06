@@ -1,5 +1,5 @@
 import React from "react";
-import toyCastle from '../img/toyCastle.png';
+import toyCastle from '../img/refs/toyCastle.png';
 
 export function ContextThree() {
     return (

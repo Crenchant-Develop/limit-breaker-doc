@@ -90,7 +90,7 @@ function Settings7() {
             <mark>퓨어 오브를 갖고 있지 않은 사람</mark>이나 물건이 거울 세계 안으로 들어오면<br />
             임팩테이블이라는 존재로 변하여 다크 오브에 의해 철저히 조종당한다.
             <div className="Image">
-                <img className="Image-right" src={require('../img/mirrorWorld.png')} alt="Settings" />
+                <img className="Image-right" src={require('../img/refs/mirrorWorld.png')} alt="Settings" />
             </div>
         </div>
     );

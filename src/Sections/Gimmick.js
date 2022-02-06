@@ -10,7 +10,7 @@ function Gimmick() {
                 가리고 스테이지들의 특색을 살리는 정도로만 사용할 예정이다.
             </div>
             <div className="Image">
-                <img className="Image-right" src={require('../img/gimmick.png')} alt="Gimmick" />
+                <img className="Image-right" src={require('../img/refs/gimmick.png')} alt="Gimmick" />
             </div>
         </>
     );
@@ -68,7 +68,7 @@ function Gimmick3() {
                 때문에 유리 벽을 잘 이용해서 장애물들을 파괴해야 한다.
             </div>
             <div className="Image">
-                <img className="Image-right" src={require('../img/gimmick1.png')} alt="Gimmick" />
+                <img className="Image-right" src={require('../img/refs/gimmick1.png')} alt="Gimmick" />
             </div>
         </>
     );
@@ -83,7 +83,7 @@ function Gimmick4() {
                 때문에 설탕 벽에 최대한 닿지 않게끔 주의하면서 날려야 한다.
             </div>
             <div className="Image">
-                <img className="Image-right" src={require('../img/gimmick2.png')} alt="Gimmick" />
+                <img className="Image-right" src={require('../img/refs/gimmick2.png')} alt="Gimmick" />
             </div>
         </>
     );
@@ -98,7 +98,7 @@ function Gimmick5() {
                 벽으로 끌려가므로 최대한 끌려가지 않게 주의하면서 날려야 한다.
             </div>
             <div className="Image">
-                <img className="Image-right" src={require('../img/gimmick3.png')} alt="Gimmick" />
+                <img className="Image-right" src={require('../img/refs/gimmick3.png')} alt="Gimmick" />
             </div>
         </>
     );
@@ -112,7 +112,7 @@ function Gimmick6() {
                 또한 1스테이지와 마찬가지로 벽에 닿으면 <mark>직각으로 빠르게 튕겨져 나간다.</mark>
             </div>
             <div className="Image">
-                <img className="Image-right" src={require('../img/gimmickX.png')} alt="Gimmick" />
+                <img className="Image-right" src={require('../img/refs/gimmickX.png')} alt="Gimmick" />
             </div>
         </>
     );
@@ -129,7 +129,7 @@ function Gimmick7() {
                 밝아지는 데에는 <mark>약간의 시간</mark>이 걸리므로 미리 위치를 기억해 두자.
             </div>
             <div className="Image">
-                <img className="Image-right" src={require('../img/gimmick4.png')} alt="Gimmick" />
+                <img className="Image-right" src={require('../img/refs/gimmick4.png')} alt="Gimmick" />
             </div>
         </>
     );
@@ -159,7 +159,7 @@ function Gimmick9() {
                 빠르게 빨간 선으로 다가오니 나이트를 적극적으로 공략하자.
             </div>
             <div className="Image">
-                <img className="Image-right" src={require('../img/gimmick6.png')} alt="Gimmick" />
+                <img className="Image-right" src={require('../img/refs/gimmick6.png')} alt="Gimmick" />
             </div>
         </>
     );
@@ -189,7 +189,7 @@ function Gimmick11() {
                 버티는 것에 성공하면 곧바로 스테이지 클리어 처리가 된다.
             </div>
             <div className="Image">
-                <img className="Image-right" src={require('../img/gimmick8.png')} alt="Gimmick" />
+                <img className="Image-right" src={require('../img/refs/gimmick8.png')} alt="Gimmick" />
             </div>
         </>
     );

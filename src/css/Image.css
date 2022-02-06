@@ -10,6 +10,11 @@
 	margin: 0 10px;
 }
 
+.Image-center {
+	position: relative;
+	top: -50vh;
+}
+
 .Image-right {
 	position: absolute;
 	top: 40vh;

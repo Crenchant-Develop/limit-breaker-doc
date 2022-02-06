@@ -2,9 +2,15 @@ import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
 import { MainContext } from "./Sections/MainContext";
 import { Section } from "./Section";
-import { Stage, Stage2, Stage3, Stage4, Stage5, Stage6, Stage7, Stage8, Stage9, Stage10, Stage11, Stage12, Stage13, Stage14, Stage15 } from "./Sections/Stage";
+import { Stage, Stage2, Stage3, Stage4, Stage5, Stage6, Stage7, Stage8, Stage9, Stage10 } from "./Sections/Stage";
+import { Stage11, Stage12, Stage13, Stage14, Stage15, Stage16, Stage17, Stage18, Stage19, Stage20 } from "./Sections/Stage";
+import { Stage21, Stage22, Stage23, Stage24, Stage25, Stage26, Stage27 } from "./Sections/Stage";
 
-export const anchors = ["st01", "st02", "st03", "st04", "st05", "st06", "st07", "st08", "st09", "st10", "st11", "st12", "st13", "st14", "st15"];
+export const anchors = [
+    "st01", "st02", "st03", "st04", "st05", "st06", "st07", "st08", "st09", "st10",
+    "st11", "st12", "st13", "st14", "st15", "st16", "st17", "st18", "st19", "st20",
+    "st21", "st22", "st23", "st24", "st25", "st26", "st27"
+];
 
 export default function SectionsEntry() {
     return (
@@ -74,6 +80,54 @@ export default function SectionsEntry() {
 
                         <Section>
                             <MainContext number="15" title="기타 레퍼런스" content={Stage15()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="16" title="5스테이지 - 템푸스 마을" content={Stage16()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="17" title="주요 레퍼런스" content={Stage17()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="18" title="기타 레퍼런스" content={Stage18()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="19" title="6스테이지 - 체슬리프 평원" content={Stage19()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="20" title="주요 레퍼런스" content={Stage20()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="21" title="기타 레퍼런스" content={Stage21()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="22" title="7스테이지 - 백지 설원" content={Stage22()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="23" title="주요 레퍼런스" content={Stage23()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="24" title="기타 레퍼런스" content={Stage24()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="25" title="8스테이지 - 끝의 성채" content={Stage25()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="26" title="주요 레퍼런스" content={Stage26()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="27" title="기타 레퍼런스" content={Stage27()} />
                         </Section>
                     </div>
                 );
