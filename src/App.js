@@ -8,6 +8,7 @@ import SectionsEntry from "./SectionsEntry";
 import SectionsStage from "./SectionsStage";
 import SectionsGimmick from "./SectionsGimmick";
 import SectionsGUI from "./SectionsGUI";
+import SectionsArt from "./SectionsArt";
 import SectionsStory from "./SectionsStory";
 import SectionsSettings from "./SectionsSettings";
 
@@ -83,6 +84,14 @@ function App() {
             return (
                 <div className="FullPage" style={style}>
                     <SectionsGUI />
+                </div>
+            );
+
+        case stateViewEnum.art:
+            console.log("아트: " + currentViewState);
+            return (
+                <div className="FullPage" style={style}>
+                    <SectionsArt />
                 </div>
             );
 

@@ -8,7 +8,7 @@ function Stage() {
             임팩테이블의 종류가 많아지고 속도 또한 빨라진다.<br /><br />
             스테이지 - 서브 스테이지 - 웨이브의 구조를 취하고 있다.
             <div className="Image">
-                <img className="Image-right" src={require('../img/stage.png')} alt="Settings" />
+                <img className="Image-right" src={require('../img/stage.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -22,7 +22,7 @@ function Stage2() {
             N-5와 N-10 스테이지의 3웨이브에는 보스 개체가 출현하며,<br />
             해당 스테이지들은 스토리 상 <mark>거울 세계</mark>에서 벌어지는 일이다.
             <div className="Image">
-                <img className="Image-right" src={require('../img/subStage.png')} alt="Settings" />
+                <img className="Image-right" src={require('../img/subStage.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -36,7 +36,7 @@ function Stage3() {
             대신 임팩테이블이 파괴될 때마다 <mark>남은 시간이 점차 늘어난다.</mark><br /><br />
             웨이브가 지날수록 임팩테이블이 많아지고, 속도도 빨라진다.
             <div className="Image">
-                <img className="Image-right" src={require('../img/wave.png')} alt="Settings" />
+                <img className="Image-right" src={require('../img/wave.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -51,7 +51,7 @@ function Stage4() {
             각 지역들은 동심이라는 공통적인 콘셉트를 가졌지만,<br />
             지역마다 각자의 <mark>분야와 상징색</mark>이 나뉘도록 구성했다.
             <div className="Image">
-                <img className="Image-right" src={require('../img/worldMap.png')} alt="Settings" />
+                <img className="Image-right" src={require('../img/worldMap.png')} alt="World Map" />
             </div>
         </div>
     );
@@ -76,7 +76,7 @@ function Stage6() {
             평소보다 구름이 더욱 짙어져 냄새를 맡으면 환각에 빠질 것 같은<br />
             수준에 도달했다. <mark>달콤한 안개의 원재료도 사실 이곳에서 난 것.</mark>
             <div className="Image">
-                <img className="Image-right" src={require('../img/stage2.png')} alt="Settings" />
+                <img className="Image-right" src={require('../img/stage2.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -87,7 +87,7 @@ function Stage7() {
         <div className="Main-text-center">
             주요 콘셉트는 솜사탕과 푸딩이다.
             <div className="Image">
-                <img className="Image-center" src={require('../img/refs/stage2Ref1.png')} alt="Settings" />
+                <img className="Image-center" src={require('../img/refs/stage2Ref1.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -98,7 +98,7 @@ function Stage8() {
         <div className="Main-text-center">
             주요 콘셉트는 솜사탕과 푸딩이다.
             <div className="Image">
-                <img className="Image-center" src={require('../img/refs/stage2Ref2.png')} alt="Settings" />
+                <img className="Image-center" src={require('../img/refs/stage2Ref2.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -113,7 +113,7 @@ function Stage9() {
             본래 글루카폴리스는 컨셉만 초콜릿으로 꾸며진 도시였지만<br />
             <mark>달콤한 안개</mark>에 갇힌 이후로는 무고한 주민들이 희생되기 시작했다.
             <div className="Image">
-                <img className="Image-right" src={require('../img/stage3.png')} alt="Settings" />
+                <img className="Image-right" src={require('../img/stage3.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -127,7 +127,7 @@ function Stage10() {
             열차에서 자고 일어나야 갈 수 있는 곳이기 때문에 항상<br />
             자각몽을 꾸면서 다니는 왕자는 다른 방법을 써서 가야 한다.
             <div className="Image">
-                <img className="Image-right" src={require('../img/stageX.png')} alt="Settings" />
+                <img className="Image-right" src={require('../img/stageX.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -138,7 +138,7 @@ function Stage11() {
         <div className="Main-text-center">
             주요 콘셉트는 자각몽과 게임이다.
             <div className="Image">
-                <img className="Image-center" src={require('../img/refs/stageXRef1.png')} alt="Settings" />
+                <img className="Image-center" src={require('../img/refs/stageXRef1.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -149,7 +149,7 @@ function Stage12() {
         <div className="Main-text-center">
             주요 콘셉트는 자각몽과 게임이다.
             <div className="Image">
-                <img className="Image-center" src={require('../img/refs/stageXRef2.png')} alt="Settings" />
+                <img className="Image-center" src={require('../img/refs/stageXRef2.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -164,7 +164,7 @@ function Stage13() {
             최근 인형들이 폭주하고 갑자기 숲이 어두워졌다 밝아졌다 하는<br />
             <mark>이상 현상</mark>이 보고되어 사람들이 잘 드나들지 않게 된 숲이다.
             <div className="Image">
-                <img className="Image-right" src={require('../img/stage4.png')} alt="Settings" />
+                <img className="Image-right" src={require('../img/stage4.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -175,7 +175,7 @@ function Stage14() {
         <div className="Main-text-center">
             주요 콘셉트는 인형과 숲이다.
             <div className="Image">
-                <img className="Image-center" src={require('../img/refs/stage4Ref1.png')} alt="Settings" />
+                <img className="Image-center" src={require('../img/refs/stage4Ref1.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -186,7 +186,7 @@ function Stage15() {
         <div className="Main-text-center">
             주요 콘셉트는 인형과 숲이다.
             <div className="Image">
-                <img className="Image-center" src={require('../img/refs/stage4Ref2.png')} alt="Settings" />
+                <img className="Image-center" src={require('../img/refs/stage4Ref2.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -200,7 +200,7 @@ function Stage16() {
             최근 <mark>왕국의 시간이 조금씩 어긋나기 시작했지만</mark> 주민들은<br />
             <mark>달콤한 안개</mark>의 효과에 빠져 해결책을 찾을 생각을 안 하고 있다.
             <div className="Image">
-                <img className="Image-right" src={require('../img/stage5.png')} alt="Settings" />
+                <img className="Image-right" src={require('../img/stage5.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -211,7 +211,7 @@ function Stage17() {
         <div className="Main-text-center">
             주요 콘셉트는 톱니바퀴와 추억이다.
             <div className="Image">
-                <img className="Image-center" src={require('../img/refs/stage5Ref1.png')} alt="Settings" />
+                <img className="Image-center" src={require('../img/refs/stage5Ref1.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -222,7 +222,7 @@ function Stage18() {
         <div className="Main-text-center">
             주요 콘셉트는 톱니바퀴와 추억이다.
             <div className="Image">
-                <img className="Image-center" src={require('../img/refs/stage5Ref2.png')} alt="Settings" />
+                <img className="Image-center" src={require('../img/refs/stage5Ref2.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -236,7 +236,7 @@ function Stage19() {
             서로 체스 경기를 하는 것이 스테이지의 주된 컨셉이다.<br /><br />
             스테이지 이름에서 체슬리프는 체스와 슬리프의 합성어이다.
             <div className="Image">
-                <img className="Image-right" src={require('../img/stage6.png')} alt="Settings" />
+                <img className="Image-right" src={require('../img/stage6.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -247,7 +247,7 @@ function Stage20() {
         <div className="Main-text-center">
             주요 콘셉트는 체스와 평원이다.
             <div className="Image">
-                <img className="Image-center" src={require('../img/refs/stage6Ref1.png')} alt="Settings" />
+                <img className="Image-center" src={require('../img/refs/stage6Ref1.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -258,7 +258,7 @@ function Stage21() {
         <div className="Main-text-center">
             주요 콘셉트는 체스와 평원이다.
             <div className="Image">
-                <img className="Image-center" src={require('../img/refs/stage6Ref2.png')} alt="Settings" />
+                <img className="Image-center" src={require('../img/refs/stage6Ref2.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -272,7 +272,7 @@ function Stage22() {
             그동안은 설원이기는 했어도 눈보라는 거의 일어나지 않았지만<br />
             최근 들어 눈보라가 심해져 <mark>새로운 이야기가 생겨나지 못하고 있다.</mark>
             <div className="Image">
-                <img className="Image-right" src={require('../img/stage7.png')} alt="Settings" />
+                <img className="Image-right" src={require('../img/stage7.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -283,7 +283,7 @@ function Stage23() {
         <div className="Main-text-center">
             주요 콘셉트는 백지와 종이접기이다.
             <div className="Image">
-                <img className="Image-center" src={require('../img/refs/stage7Ref1.png')} alt="Settings" />
+                <img className="Image-center" src={require('../img/refs/stage7Ref1.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -294,7 +294,7 @@ function Stage24() {
         <div className="Main-text-center">
             주요 콘셉트는 백지와 종이접기이다.
             <div className="Image">
-                <img className="Image-center" src={require('../img/refs/stage7Ref2.png')} alt="Settings" />
+                <img className="Image-center" src={require('../img/refs/stage7Ref2.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -308,7 +308,7 @@ function Stage25() {
             최종장이기 때문에 서브 스테이지가 5까지만 있으며<br />
             <mark>성채를 향해 앞으로 나아가는 것</mark>이 스테이지의 주된 컨셉이다.
             <div className="Image">
-                <img className="Image-right" src={require('../img/stage8.png')} alt="Settings" />
+                <img className="Image-right" src={require('../img/stage8.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -319,7 +319,7 @@ function Stage26() {
         <div className="Main-text-center">
             주요 콘셉트는 미끄럼틀과 장난감 공장이다.
             <div className="Image">
-                <img className="Image-center" src={require('../img/refs/stage8Ref1.png')} alt="Settings" />
+                <img className="Image-center" src={require('../img/refs/stage8Ref1.png')} alt="Reference" />
             </div>
         </div>
     );
@@ -330,7 +330,7 @@ function Stage27() {
         <div className="Main-text-center">
             주요 콘셉트는 미끄럼틀과 장난감 공장이다.
             <div className="Image">
-                <img className="Image-center" src={require('../img/refs/stage8Ref2.png')} alt="Settings" />
+                <img className="Image-center" src={require('../img/refs/stage8Ref2.png')} alt="Reference" />
             </div>
         </div>
     );

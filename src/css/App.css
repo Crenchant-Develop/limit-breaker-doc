@@ -8,7 +8,7 @@
 
 mark {
 	background-color: initial;
-	color: yellow;
+	color: #E9B43A;
 }
 
 a {
@@ -18,7 +18,7 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: yellow;
+	color: #E9B43A;
 }
 
 .Number {
