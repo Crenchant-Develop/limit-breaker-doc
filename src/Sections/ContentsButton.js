@@ -1,8 +1,5 @@
 import React from "react";
-import store from '../index';
-import { stateViewEnum, CurrentView, SetChangeViewState } from "../stateViewEnum";
- 
-
+import { stateViewEnum, SetChangeViewState } from "../stateViewEnum";
 
 export function ContentsButton() {
     return (

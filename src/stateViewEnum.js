@@ -1,5 +1,4 @@
-import { useDispatch, useSelector } from 'react-redux';
-import { createStore } from 'redux';
+import { createStore, compose } from "redux";
 
 //Enum 선언
 export const stateViewEnum = {
@@ -14,7 +13,10 @@ export const stateViewEnum = {
     settings: 7,
 };
 
-export const store = createStore(OnChangeView, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+export const store = createStore(OnChangeView, compose(
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
+  )
+)
 
 export function OnChangeView(state = stateViewEnum.intro, action) 
 {
@@ -28,6 +30,7 @@ export function OnChangeView(state = stateViewEnum.intro, action)
 
 export function SetChangeViewState(value)
 {
+    sessionStorage.setItem('currentPage', value);
     store.dispatch({ type: value });
     console.log("SetChangeViewState 호출. 현재 상태: " + (value));
     return;
@@ -35,7 +38,8 @@ export function SetChangeViewState(value)
 
 export function NextView(value)
 {
-    store.dispatch({ type: ++value });
+    value++;
+    SetChangeViewState(value);
     console.log("NextView 호출. 현재 상태: " + (value));
     return;
 }

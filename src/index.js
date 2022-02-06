@@ -3,10 +3,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 import { Provider } from 'react-redux';
-
-import { OnChangeView, store } from "./stateViewEnum";
+import { store } from "./stateViewEnum";
 import './index.css';
-
 
 ReactDOM.render(
   <React.StrictMode>

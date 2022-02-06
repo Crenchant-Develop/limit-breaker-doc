@@ -4,23 +4,18 @@ import { Contents } from "./Sections/Contents";
 import { Main, LinkMain } from "./Sections/ContextText";
 import { MainContext } from "./Sections/MainContext";
 import { Section } from "./Section";
-import { Story } from "./Sections/Story";
 import { ContentsButton } from "./Sections/ContentsButton";
 
 export const anchors = ["main", "01", "02", "03"];
 
-export default function ScrollElements() {
+export default function SectionsEntry() {
     return (
         <ReactFullpage
             anchors={anchors}
             navigation
             navigationTooltips={anchors}
             licenseKey='YOUR_KEY_HERE'
-            // onLeave={(origin, destination, direction) => {
-            //     console.log("onLeave event", { origin, destination, direction });
-            // }}
-             render={({ state, fullpageApi }) => {
-            //     console.log("render prop change", state, fullpageApi); // eslint-disable-line no-console
+            render={({ state, fullpageApi }) => {
                 return (
                     <div>
                         <Section>
