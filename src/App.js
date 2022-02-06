@@ -14,6 +14,7 @@ import './/css/Fade.css';
 import './/css/App.css';
 import './/css/Button.css';
 import './/css/Main.css';
+import './/css/Table.css';
 import './/css/Text.css';
 import './/css/Title.css';
 import './/css/Image.css';

@@ -19,6 +19,38 @@ function Gimmick() {
 function Gimmick2() {
     return (
         <>
+            <div className="table-container">
+                <div className="table-grid">
+                    2스테이지
+                </div>
+                <div className="table-grid">
+                    솜사탕 구름
+                </div>
+                <div className="table-grid">
+                    3스테이지
+                </div>
+                <div className="table-grid">
+                    초콜릿 스모그
+                </div>
+                <div className="table-grid">
+                    X스테이지
+                </div>
+                <div className="table-grid">
+                    무지갯빛 안개
+                </div>
+                <div className="table-grid">
+                    4스테이지
+                </div>
+                <div className="table-grid">
+                    안개
+                </div>
+                <div className="table-grid">
+                    7스테이지
+                </div>
+                <div className="table-grid">
+                    눈보라
+                </div>
+            </div>
             <div className="Main-text-center">
                 안개들은 전부 동일한 방식으로 색만 다르게 하여 구현할 예정이다.
             </div>
