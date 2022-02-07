@@ -159,6 +159,18 @@ function System9() {
 function System10() {
     return (
         <>
+            <div className="Main-text">
+                임팩테이블은 크게 <mark>지상형, 반공중형, 공중형</mark>으로 나뉜다.<br />
+                지상형은 땅에 붙어 다니며 공중형은 공중을 떠다니고,<br />
+                반공중형은 공중을 떠다니기는 하나 높이 뜨지는 않는 종류이다.
+            </div>
+        </>
+    );
+}
+
+function System11() {
+    return (
+        <>
             <div className="Image">
                 <img className="Image-impactable" src={require('../img/impactable1.png')} alt="Impactable" />
             </div>
@@ -173,7 +185,7 @@ function System10() {
     );
 }
 
-function System11() {
+function System12() {
     return (
         <>
             <div className="Image">
@@ -189,7 +201,7 @@ function System11() {
     );
 }
 
-function System12() {
+function System13() {
     return (
         <>
             <div className="Image">
@@ -209,7 +221,7 @@ function System12() {
     );
 }
 
-function System13() {
+function System14() {
     return (
         <div className="Main-text">
             스테이지를 클리어할 때마다 경험치가 조금씩 차오른다.<br /><br />
@@ -220,14 +232,14 @@ function System13() {
     );
 }
 
-function System14() {
+function System15() {
     return (
         <>
             <div className="Image">
                 <img className="Image-right" src={require('../img/sugarCoin.png')} alt="Sugar Coin" />
-                슈가코인은 사탕처럼 표시된다.
             </div>
             <div className="Main-text">
+                슈가코인은 사탕처럼 표시된다.<br />
                 화폐는 슈가코인이라고 불리우며, 게임 내에서 화폐의 역할을 한다.<br /><br />
                 <mark>계급성</mark><br />크기가 큰 장애물을 파괴할수록 슈가코인이 많이 들어온다.<br /><br />
                 <mark>초과성</mark><br />한계 충격량을 초과해서 파괴할수록 슈가코인이 많이 들어온다.<br /><br />
@@ -237,7 +249,7 @@ function System14() {
     );
 }
 
-function System15() {
+function System16() {
     return (
         <>
             <div className="Image">
@@ -252,7 +264,7 @@ function System15() {
     );
 }
 
-function System16() {
+function System17() {
     return (
         <>
             <div className="Image">
@@ -271,4 +283,4 @@ function System16() {
 }
 
 export { System, System2, System3, System4, System5, System6, System7, System8, System9, System10 };
-export { System11, System12, System13, System14, System15, System16 };
+export { System11, System12, System13, System14, System15, System16, System17 };

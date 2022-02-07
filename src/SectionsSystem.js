@@ -3,11 +3,11 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import { MainContext } from "./Sections/MainContext";
 import { Section } from "./Section";
 import { System, System2, System3, System4, System5, System6, System7, System8, System9, System10 } from "./Sections/System";
-import { System11, System12, System13, System14, System15, System16 } from "./Sections/System";
+import { System11, System12, System13, System14, System15, System16, System17 } from "./Sections/System";
 
 export const anchors = [
     "sy01", "sy02", "sy03", "sy04", "sy05", "sy06", "sy07", "sy08", "sy09", "sy10",
-    "sy11", "sy12", "sy13", "sy14", "sy15", "sy16"
+    "sy11", "sy12", "sy13", "sy14", "sy15", "sy16", "sy17"
 ];
 
 export default function SectionsStory() {
@@ -57,7 +57,7 @@ export default function SectionsStory() {
                         </Section>
 
                         <Section>
-                            <MainContext number="11" title="임팩테이블의 종류" content={System10()} />
+                            <MainContext number="11" title="임팩테이블 - 분류" content={System10()} />
                         </Section>
 
                         <Section>
@@ -69,11 +69,11 @@ export default function SectionsStory() {
                         </Section>
 
                         <Section>
-                            <MainContext number="14" title="경험치" content={System13()} />
+                            <MainContext number="14" title="임팩테이블의 종류" content={System13()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="15" title="슈가코인" content={System14()} />
+                            <MainContext number="15" title="경험치" content={System14()} />
                         </Section>
 
                         <Section>
@@ -81,7 +81,11 @@ export default function SectionsStory() {
                         </Section>
 
                         <Section>
-                            <MainContext number="17" title="드림포인트" content={System16()} />
+                            <MainContext number="17" title="슈가코인" content={System16()} />
+                        </Section>
+
+                        <Section>
+                            <MainContext number="18" title="드림포인트" content={System17()} />
                         </Section>
                     </div>
                 );

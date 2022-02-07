@@ -51,6 +51,18 @@ function Stage3() {
 function Stage4() {
     return (
         <>
+            <div className="Main-text">
+                스테이지가 진행되고 일정 시간이 흐를 때마다 <mark>피버 타임</mark>이 찾아온다.<br />
+                피버 타임 시에는 가장 가까운 임팩테이블을 향해 지원 사격이 날아가고<br />
+                화면 전반적으로 <mark>모션 블러</mark> 이펙트가 깔려 <mark>강조 효과</mark>를 줄 것이다.
+            </div>
+        </>
+    );
+}
+
+function Stage5() {
+    return (
+        <>
             <div className="Image">
                 <img className="Image-right" src={require('../img/worldMap.png')} alt="World Map" />
             </div>
@@ -65,7 +77,7 @@ function Stage4() {
     );
 }
 
-function Stage5() {
+function Stage6() {
     return (
         <div className="Main-text">
             게임을 처음 시작한 플레이어를 몰입하게 만드는 것이 목표이다.<br />
@@ -76,7 +88,7 @@ function Stage5() {
     );
 }
 
-function Stage6() {
+function Stage7() {
     return (
         <>
             <div className="Image">
@@ -92,7 +104,7 @@ function Stage6() {
     );
 }
 
-function Stage7() {
+function Stage8() {
     return (
         <div className="Main-text-center">
             주요 콘셉트는 솜사탕과 푸딩이다.
@@ -103,7 +115,7 @@ function Stage7() {
     );
 }
 
-function Stage8() {
+function Stage9() {
     return (
         <div className="Main-text-center">
             주요 콘셉트는 솜사탕과 푸딩이다.
@@ -114,7 +126,7 @@ function Stage8() {
     );
 }
 
-function Stage9() {
+function Stage10() {
     return (
         <>
             <div className="Image">
@@ -131,7 +143,7 @@ function Stage9() {
     );
 }
 
-function Stage10() {
+function Stage11() {
     return (
         <>
             <div className="Image">
@@ -147,7 +159,7 @@ function Stage10() {
     );
 }
 
-function Stage11() {
+function Stage12() {
     return (
         <div className="Main-text-center">
             주요 콘셉트는 자각몽과 게임이다.
@@ -158,7 +170,7 @@ function Stage11() {
     );
 }
 
-function Stage12() {
+function Stage13() {
     return (
         <div className="Main-text-center">
             주요 콘셉트는 자각몽과 게임이다.
@@ -169,7 +181,7 @@ function Stage12() {
     );
 }
 
-function Stage13() {
+function Stage14() {
     return (
         <>
             <div className="Image">
@@ -186,7 +198,7 @@ function Stage13() {
     );
 }
 
-function Stage14() {
+function Stage15() {
     return (
         <div className="Main-text-center">
             주요 콘셉트는 인형과 숲이다.
@@ -197,7 +209,7 @@ function Stage14() {
     );
 }
 
-function Stage15() {
+function Stage16() {
     return (
         <div className="Main-text-center">
             주요 콘셉트는 인형과 숲이다.
@@ -208,7 +220,7 @@ function Stage15() {
     );
 }
 
-function Stage16() {
+function Stage17() {
     return (
         <>
             <div className="Image">
@@ -224,7 +236,7 @@ function Stage16() {
     );
 }
 
-function Stage17() {
+function Stage18() {
     return (
         <div className="Main-text-center">
             주요 콘셉트는 톱니바퀴와 추억이다.
@@ -235,7 +247,7 @@ function Stage17() {
     );
 }
 
-function Stage18() {
+function Stage19() {
     return (
         <div className="Main-text-center">
             주요 콘셉트는 톱니바퀴와 추억이다.
@@ -246,7 +258,7 @@ function Stage18() {
     );
 }
 
-function Stage19() {
+function Stage20() {
     return (
         <>
             <div className="Image">
@@ -262,7 +274,7 @@ function Stage19() {
     );
 }
 
-function Stage20() {
+function Stage21() {
     return (
         <div className="Main-text-center">
             주요 콘셉트는 체스와 평원이다.
@@ -273,7 +285,7 @@ function Stage20() {
     );
 }
 
-function Stage21() {
+function Stage22() {
     return (
         <div className="Main-text-center">
             주요 콘셉트는 체스와 평원이다.
@@ -284,7 +296,7 @@ function Stage21() {
     );
 }
 
-function Stage22() {
+function Stage23() {
     return (
         <>
             <div className="Image">
@@ -300,7 +312,7 @@ function Stage22() {
     );
 }
 
-function Stage23() {
+function Stage24() {
     return (
         <div className="Main-text-center">
             주요 콘셉트는 백지와 종이접기이다.
@@ -311,7 +323,7 @@ function Stage23() {
     );
 }
 
-function Stage24() {
+function Stage25() {
     return (
         <div className="Main-text-center">
             주요 콘셉트는 백지와 종이접기이다.
@@ -322,7 +334,7 @@ function Stage24() {
     );
 }
 
-function Stage25() {
+function Stage26() {
     return (
         <>
             <div className="Image">
@@ -338,7 +350,7 @@ function Stage25() {
     );
 }
 
-function Stage26() {
+function Stage27() {
     return (
         <div className="Main-text-center">
             주요 콘셉트는 미끄럼틀과 장난감 공장이다.
@@ -349,7 +361,7 @@ function Stage26() {
     );
 }
 
-function Stage27() {
+function Stage28() {
     return (
         <div className="Main-text-center">
             주요 콘셉트는 미끄럼틀과 장난감 공장이다.
@@ -362,4 +374,4 @@ function Stage27() {
 
 export { Stage, Stage2, Stage3, Stage4, Stage5, Stage6, Stage7, Stage8, Stage9, Stage10 };
 export { Stage11, Stage12, Stage13, Stage14, Stage15, Stage16, Stage17, Stage18, Stage19, Stage20 };
-export { Stage21, Stage22, Stage23, Stage24, Stage25, Stage26, Stage27 };
+export { Stage21, Stage22, Stage23, Stage24, Stage25, Stage26, Stage27, Stage28 };
