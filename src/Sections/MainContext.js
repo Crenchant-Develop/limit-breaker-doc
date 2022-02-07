@@ -1,6 +1,8 @@
 import React from "react";
 import numberCircle from '../img/numberCircle.svg';
+import home from '../img/home.svg';
 import LayoutView from "./LayoutView";
+import { stateViewEnum, SetChangeViewState } from "../stateViewEnum";
 
 export function MainContext(props) {
     const title = () => {
@@ -18,13 +20,14 @@ export function MainContext(props) {
                             </div>
                         </div>
                     </div>
-
                     <div className="Title-bar">
                         <div className="Title-text">
                             {props.title}
                         </div>
                     </div>
-
+                    <button className="btn-image" onClick={()=>SetChangeViewState(stateViewEnum.main)}>
+                        <img src={home} />
+                    </button>
                     <div className="quarter-circle">
                         <div className="quarter-circle-small">
                         </div>

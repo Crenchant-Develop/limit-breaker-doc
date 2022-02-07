@@ -35,3 +35,12 @@ button {
 .btn:hover, .btn2:hover {
 	background-color: #424953;
 }
+
+.btn-image {
+	position: absolute;
+	right: -14%;
+	top: -28%;
+	transform: scale(0.2);
+	border-style: none;
+	background-color: initial;
+}
