@@ -27,45 +27,51 @@ function Settings2() {
 
 function Settings3() {
     return (
-        <div className="Main-text">
-            <mark>파괴</mark>와 <mark>정화</mark>의 능력을 가지고 있는 메인 오브젝트로,<br />
-            퓨어 오브에 의해 파괴된 것들은 꿈을 가진 존재로 다시 태어난다.<br /><br />
-            꿈의 힘이 내재되어 있으며 꿈을 실체화하는 능력이 있어<br />
-            드리미아 왕국을 행복한 기억의 왕국으로 유지시킬 수 있었다.
+        <>
             <div className="Image">
                 <img className="Image-right" src={require('../img/pureOrb.png')} alt="Settings" />
             </div>
-        </div>
+            <div className="Main-text">
+                <mark>파괴</mark>와 <mark>정화</mark>의 능력을 가지고 있는 메인 오브젝트로,<br />
+                퓨어 오브에 의해 파괴된 것들은 꿈을 가진 존재로 다시 태어난다.<br /><br />
+                꿈의 힘이 내재되어 있으며 꿈을 실체화하는 능력이 있어<br />
+                드리미아 왕국을 행복한 기억의 왕국으로 유지시킬 수 있었다.
+            </div>
+        </>
     );
 }
 
 function Settings4() {
     return (
-        <div className="Main-text">
-            주민들이 악몽을 꾸지 않도록 덩어리 형태로 봉인된 오브젝트로,<br />
-            저주받은 물건이기에 사람의 약한 마음을 타고 들어가 숙주로 삼는다.<br />
-            퓨어 오브와 반대되는 <mark>창조</mark>와 <mark>흑화</mark>의 능력을 가지고 있다.<br /><br />
-            악몽의 힘이 내재되어 있으며 설정상 모든 임팩테이블들은 다크 오브의<br />
-            영향으로 주도권이 뺏기거나 새롭게 창조된 것들이다. 또한 왕이 무아르트를<br />
-            봉인한 계기도, 무아르트가 본격적으로 타락한 것도 이 다크 오브 때문이다.
+        <>
             <div className="Image">
                 <img className="Image-right" src={require('../img/darkOrb.png')} alt="Settings" />
             </div>
-        </div>
+            <div className="Main-text">
+                주민들이 악몽을 꾸지 않도록 덩어리 형태로 봉인된 오브젝트로,<br />
+                저주받은 물건이기에 사람의 약한 마음을 타고 들어가 숙주로 삼는다.<br />
+                퓨어 오브와 반대되는 <mark>창조</mark>와 <mark>흑화</mark>의 능력을 가지고 있다.<br /><br />
+                악몽의 힘이 내재되어 있으며 설정상 모든 임팩테이블들은 다크 오브의<br />
+                영향으로 주도권이 뺏기거나 새롭게 창조된 것들이다. 또한 왕이 무아르트를<br />
+                봉인한 계기도, 무아르트가 본격적으로 타락한 것도 이 다크 오브 때문이다.
+            </div>
+        </>
     );
 }
 
 function Settings5() {
     return (
-        <div className="Main-text">
-            세계와 세계를 잇는 통로와도 같은 곳. 평범한 거울이었으나<br />
-            거울 속에서 다크 오브의 힘이 발현되어 <mark>타락한 형태</mark>이다.<br /><br />
-            사람이나 물건이 거울 앞으로 가면 바로 거울 속에 삼켜지며,<br />
-            거울 앞에 다가오게 만들기 위해 사람에게 <mark>신기루를 보여준다.</mark>
+        <>
             <div className="Image">
                 <img className="Image-right" src={require('../img/mirror.png')} alt="Settings" />
             </div>
-        </div>
+            <div className="Main-text">
+                세계와 세계를 잇는 통로와도 같은 곳. 평범한 거울이었으나<br />
+                거울 속에서 다크 오브의 힘이 발현되어 <mark>타락한 형태</mark>이다.<br /><br />
+                사람이나 물건이 거울 앞으로 가면 바로 거울 속에 삼켜지며,<br />
+                거울 앞에 다가오게 만들기 위해 사람에게 <mark>신기루를 보여준다.</mark>
+            </div>
+        </>
     );
 }
 
@@ -83,16 +89,18 @@ function Settings6() {
 
 function Settings7() {
     return (
-        <div className="Main-text">
-            현혹의 거울 속에 자리잡은 세계로 이빌리아 왕국의 잔해와도 같은 곳.<br />
-            기본적으로는 무한 거울의 방과도 같은 모습을 하고 있으나 특정 상황에서는<br />
-            마치 진짜로 하늘을 날고 있는 것처럼 <mark>상공의 모습을 비출 수 있다.</mark><br /><br />
-            <mark>퓨어 오브를 갖고 있지 않은 사람</mark>이나 물건이 거울 세계 안으로 들어오면<br />
-            임팩테이블이라는 존재로 변하여 다크 오브에 의해 철저히 조종당한다.
+        <>
             <div className="Image">
                 <img className="Image-right" src={require('../img/refs/mirrorWorld.png')} alt="Settings" />
             </div>
-        </div>
+            <div className="Main-text">
+                현혹의 거울 속에 자리잡은 세계로 이빌리아 왕국의 잔해와도 같은 곳.<br />
+                기본적으로는 무한 거울의 방과도 같은 모습을 하고 있으나 특정 상황에서는<br />
+                마치 진짜로 하늘을 날고 있는 것처럼 <mark>상공의 모습을 비출 수 있다.</mark><br /><br />
+                <mark>퓨어 오브를 갖고 있지 않은 사람</mark>이나 물건이 거울 세계 안으로 들어오면<br />
+                임팩테이블이라는 존재로 변하여 다크 오브에 의해 철저히 조종당한다.
+            </div>
+        </>
     );
 }
 
