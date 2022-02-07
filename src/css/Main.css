@@ -22,11 +22,11 @@ Main {
 }
 
 .Main-text {
-	font-size: 4vh;
+	font-size: 2vw;
 }
 
 .Main-text-center {
-	font-size: 4vh;
+	font-size: 2vw;
 	text-align: center;
 	position: relative;
 	top: 50vh;
