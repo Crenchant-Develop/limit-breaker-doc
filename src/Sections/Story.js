@@ -31,13 +31,13 @@ function Story() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/001.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/k4wcgj7/001.png" alt="001" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/002.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/NrkpMWz/002.png" alt="002" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/003.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/BLKxr2x/003.png" alt="003" border="0" />
                 </div>
             </div>
         </>
@@ -54,13 +54,13 @@ function Story2() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/004.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/Rp9RrcG/004.png" alt="004" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/005.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/3z5tLM1/005.png" alt="005" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/006.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/FDJyhgn/006.png" alt="006" border="0" />
                 </div>
             </div>
         </>
@@ -77,13 +77,13 @@ function Story3() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/007.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/x1kZnNd/007.png" alt="007" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/008.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/n3LXgNS/008.png" alt="008" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/009.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/NybWf4H/009.png" alt="009" border="0" />
                 </div>
             </div>
         </>
@@ -99,13 +99,13 @@ function Story4() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/010.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/9rLhY20/010.png" alt="010" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/011.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/Dg2PRc8/011.png" alt="011" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/012.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/BBm2ttc/012.png" alt="012" border="0" />
                 </div>
             </div>
         </>
@@ -122,13 +122,13 @@ function Story5() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/013.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/K5MQX0x/013.png" alt="013" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/014.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/6gWKpBh/014.png" alt="014" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/015.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/F5vrSgV/015.png" alt="015" border="0" />
                 </div>
             </div>
         </>
@@ -145,13 +145,13 @@ function Story6() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/016.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/MP9LLwj/016.png" alt="016" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/005.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/3z5tLM1/005.png" alt="005" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/017.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/m57qbyM/017.png" alt="017" border="0" />
                 </div>
             </div>
         </>
@@ -168,13 +168,13 @@ function Story7() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/018.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/0f6zG49/018.png" alt="018" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/019.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/LpKt0nS/019.png" alt="019" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/020.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/ZNSL9R0/020.png" alt="020" border="0" />
                 </div>
             </div>
         </>
@@ -191,13 +191,13 @@ function Story8() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/021.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/L9R8P33/021.png" alt="021" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/022.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/TmbTZPY/022.png" alt="022" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/023.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/SfC2XPD/023.png" alt="023" border="0" />
                 </div>
             </div>
         </>
@@ -214,13 +214,13 @@ function Story9() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/024.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/0GNByKz/024.png" alt="024" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/011.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/Dg2PRc8/011.png" alt="011" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/025.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/Jtm0TLF/025.png" alt="025" border="0" />
                 </div>
             </div>
         </>
@@ -237,13 +237,13 @@ function Story10() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/026.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/h7FdzCP/026.png" alt="026" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/027.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/2yqKcJX/027.png" alt="027" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/028.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/jrm2xVF/028.png" alt="028" border="0" />
                 </div>
             </div>
         </>
@@ -260,13 +260,13 @@ function Story11() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/029.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/PWRqPxY/029.png" alt="029" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/030.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/F4C3pDy/030.png" alt="030" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/031.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/m4cKkyx/031.png" alt="031" border="0" />
                 </div>
             </div>
         </>
@@ -283,13 +283,13 @@ function Story12() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/032.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/XsJBJW0/032.png" alt="032" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/033.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/LJS6kGZ/033.png" alt="033" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/034.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/6yp9Kst/034.png" alt="034" border="0" />
                 </div>
             </div>
         </>
@@ -306,13 +306,13 @@ function Story13() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/029.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/PWRqPxY/029.png" alt="029" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/035.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/HTMbqvd/035.png" alt="035" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/010.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/9rLhY20/010.png" alt="010" border="0" />
                 </div>
             </div>
         </>
@@ -329,13 +329,13 @@ function Story14() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/031.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/m4cKkyx/031.png" alt="031" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/036.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/pbnSGgS/036.png" alt="036" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/037.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/jGZSyfb/037.png" alt="037" border="0" />
                 </div>
             </div>
         </>
@@ -352,13 +352,13 @@ function Story15() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/038.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/7VMK3ZD/038.png" alt="038" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/018.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/0f6zG49/018.png" alt="018" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/039.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/VHJ28P9/039.png" alt="039" border="0" />
                 </div>
             </div>
         </>
@@ -375,13 +375,13 @@ function Story16() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/040.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/c119jRh/040.png" alt="040" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/006.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/FDJyhgn/006.png" alt="006" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/041.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/S5yYGz9/041.png" alt="041" border="0" />
                 </div>
             </div>
         </>
@@ -398,13 +398,13 @@ function Story17() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/038.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/7VMK3ZD/038.png" alt="038" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/034.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/6yp9Kst/034.png" alt="034" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/033.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/LJS6kGZ/033.png" alt="033" border="0" />
                 </div>
             </div>
         </>
@@ -421,13 +421,13 @@ function Story18() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/030.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/F4C3pDy/030.png" alt="030" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/002.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/NrkpMWz/002.png" alt="002" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/031.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/m4cKkyx/031.png" alt="031" border="0" />
                 </div>
             </div>
         </>
@@ -444,13 +444,13 @@ function Story19() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/042.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/0CL8SRk/042.png" alt="042" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/029.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/PWRqPxY/029.png" alt="029" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/043.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/h7yBw8W/043.png" alt="043" border="0" />
                 </div>
             </div>
         </>
@@ -467,13 +467,13 @@ function Story20() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/044.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/2dqDFPs/044.png" alt="044" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/045.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/wSnM0Vc/045.png" alt="045" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/046.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/YL1BXcq/046.png" alt="046" border="0" />
                 </div>
             </div>
         </>
@@ -490,13 +490,13 @@ function Story21() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/047.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/XYb7nnG/047.png" alt="047" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/048.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/TtrWj4z/048.png" alt="048" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/049.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/FmCNYgB/049.png" alt="049" border="0" />
                 </div>
             </div>
         </>
@@ -513,13 +513,13 @@ function Story22() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/050.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/SmjxtdJ/050.png" alt="050" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/051.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/ct1xTY3/051.png" alt="051" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/029.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/9bTm051/052.png" alt="052" border="0" />
                 </div>
             </div>
         </>
@@ -536,13 +536,13 @@ function Story23() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/052.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/9bTm051/052.png" alt="052" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/053.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/dbJjgKT/053.png" alt="053" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/054.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/Sd57V77/054.png" alt="054" border="0" />
                 </div>
             </div>
         </>
@@ -559,13 +559,13 @@ function Story24() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/003.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/BLKxr2x/003.png" alt="003" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/055.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/SQNpFtm/055.png" alt="055" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/056.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/PCYpn4x/056.png" alt="056" border="0" />
                 </div>
             </div>
         </>
@@ -582,13 +582,13 @@ function Story25() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/044.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/2dqDFPs/044.png" alt="044" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/042.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/0CL8SRk/042.png" alt="042" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/043.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/h7yBw8W/043.png" alt="043" border="0" />
                 </div>
             </div>
         </>
@@ -605,13 +605,13 @@ function Story26() {
             </div>
             <div className="Storyboard-wrapper">
                 <div className="Storyboard">
-                    <img src={require('../img/story/057.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/5RChTV4/057.png" alt="057" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/058.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/PzWfJ5F/058.png" alt="058" border="0" />
                 </div>
                 <div className="Storyboard">
-                    <img src={require('../img/story/002.png')} alt="Storyboard" />
+                    <img src="https://i.ibb.co/NrkpMWz/002.png" alt="002" border="0" />
                 </div>
             </div>
         </>
