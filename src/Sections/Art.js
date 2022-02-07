@@ -34,7 +34,7 @@ function Art3() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/arts/02.png')} alt="Art" />
+                <img className="Image-right-square" src={require('../img/arts/02.png')} alt="Art" />
             </div>
             <div className="Main-text">
                 왕국 전역에 사는 몸이 솜뭉치로 된 종족이자 주민.<br />
@@ -68,7 +68,7 @@ function Art5() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/arts/04.png')} alt="Art" />
+                <img className="Image-right-square" src={require('../img/arts/04.png')} alt="Art" />
             </div>
             <div className="Main-text">
                 슈가타운에 사는 몸이 솜사탕으로 된 종족이자 주민.<br />
@@ -83,7 +83,7 @@ function Art6() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/arts/05.png')} alt="Art" />
+                <img className="Image-right-square" src={require('../img/arts/05.png')} alt="Art" />
             </div>
             <div className="Main-text">
                 슈가타운에 사는 몸이 푸딩으로 된 종족이자 주민.<br />
@@ -117,7 +117,7 @@ function Art8() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/arts/07.png')} alt="Art" />
+                <img className="Image-right-square" src={require('../img/arts/07.png')} alt="Art" />
             </div>
             <div className="Main-text">
                 글루카폴리스에 사는 몸이 초콜릿으로 된 종족이자 주민.<br />
@@ -133,7 +133,7 @@ function Art9() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/arts/08.png')} alt="Art" />
+                <img className="Image-right-square" src={require('../img/arts/08.png')} alt="Art" />
             </div>
             <div className="Main-text">
                 낡은 인형들이 꿈의 힘을 받고 뭉쳐져 다시 태어난 존재.<br />

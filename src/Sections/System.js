@@ -236,7 +236,7 @@ function System15() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/sugarCoin.png')} alt="Sugar Coin" />
+                <img className="Image-right-square" src={require('../img/sugarCoin.png')} alt="Sugar Coin" />
             </div>
             <div className="Main-text">
                 슈가코인은 사탕처럼 표시된다.<br />
@@ -268,7 +268,7 @@ function System17() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/dreamPoint.png')} alt="Dream Point" />
+                <img className="Image-right-square" src={require('../img/dreamPoint.png')} alt="Dream Point" />
             </div>
             <div className="Main-text">
                 드림포인트는 퓨어 오브 강화용으로 지불이 가능하다.<br />

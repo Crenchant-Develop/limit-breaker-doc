@@ -10,7 +10,7 @@
 	margin: 0 10px;
 }
 
-.Image-center, .Image-right, .Image-impactable {
+.Image-center, .Image-right, .Image-right-square, .Image-impactable {
 	max-width: 50%;
 	height: auto;
 }
@@ -24,6 +24,13 @@
 	position: absolute;
 	top: 40%;
 	left: 65%;
+}
+
+.Image-right-square {
+	position: absolute;
+	top: 40%;
+	left: 80%;
+	transform: scale(2.0);
 }
 
 .Image-impactable {
