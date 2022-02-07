@@ -10,6 +10,11 @@
 	margin: 0 10px;
 }
 
+.Image-center, .Image-right, .Image-impactable {
+	max-width: 50%;
+	height: auto;
+}
+
 .Image-center {
 	position: relative;
 	top: -50vh;
@@ -17,14 +22,14 @@
 
 .Image-right {
 	position: absolute;
-	top: 40vh;
-	left: 65vw;
+	top: 40%;
+	left: 65%;
 }
 
 .Image-impactable {
 	position: absolute;
-	top: 25vh;
-	left: 57.5vw;
+	top: 25%;
+	left: 57.5%;
 }
 
 .Storyboard-wrapper {
