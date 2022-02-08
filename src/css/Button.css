@@ -36,10 +36,21 @@ button {
 	background-color: #424953;
 }
 
+.btn-image-container {
+	position: relative;
+	width: 5vh;
+	height: 5vh;
+	border-style: none;
+	background-color: initial;
+}
+
 .btn-image {
 	position: absolute;
-	right: -14%;
-	top: -28%;
+	width: 2vw;
+	height: 2vh;
+	top: 1vh;
+	right: 7vw;
+	transform: translate(-50%, -50%);
 	transform: scale(0.2);
 	border-style: none;
 	background-color: initial;
