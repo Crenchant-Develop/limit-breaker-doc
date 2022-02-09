@@ -7,16 +7,26 @@ function System() {
                 <img className="Image-right" src={require('../img/options.png')} alt="Options" />
             </div>
             <div className="Main-text">
-                강화는 해당 요소의 레벨을 올리는 방식으로 이루어진다.<br />
+                스킬 강화는 해당 요소의 레벨을 올리는 방식으로 이루어지며<br />
                 스토리상으로는 잃어버린 오브의 힘을 점차 되찾는 것이다.<br /><br />
-                각 항목의 최소 레벨은 0, 최대 레벨은 10이다. (체력 제외)<br />
-                튜토리얼 한정으로 레벨이 0이며 이 레벨은 인게임에 표시되지 않는다.
+                각 항목의 최소 레벨은 0이고 체력을 제외한 최대 레벨은 10이다.<br />
+                튜토리얼 한정으로 레벨 0으로 진행된다 인게임에 표시되지 않는다.
             </div>
         </>
     );
 }
 
 function System2() {
+    return (
+        <div className="Main-text">
+            스킬들은 마치 장비처럼 스킬 슬롯에 장착이 가능하다.<br />
+            처음에는 액티브 3칸 / 패시브 3칸으로 시작하여 <mark>드림포인트를<br />
+            지불</mark>하는 것으로 스킬 슬롯의 칸을 늘리는 것이 가능하다.
+        </div>
+    );
+}
+
+function System3() {
     return (
         <>
             <div className="Image">
@@ -29,6 +39,7 @@ function System2() {
                     <mark>//int damage0은 레벨 0 기준 고정 피해</mark><br />
                     (hp - damage0) * (1 + (level * 0.2));
                 </div>
+                화력: 레벨 상승시마다 <mark>퓨어 오브의 화력 (force)이 증가</mark>한다.<br />
                 체력: 레벨 상승시마다 <mark>HP가 1씩 증가</mark>한다. (유일하게 최대 레벨이 5이다.)<br />
                 쾌속: 레벨 상승시마다 <mark>게이지가 차오르는 속도가 증가</mark>한다.<br />
                 성장: 레벨 상승시마다 <mark>퓨어 오브의 크기 (scale)와 범위가 증가</mark>한다.<br />
@@ -38,7 +49,7 @@ function System2() {
     );
 }
 
-function System3() {
+function System4() {
     return (
         <>
             <div className="Image">
@@ -47,14 +58,13 @@ function System3() {
             <div className="Main-text">
                 각 옵션이 지니는 효과는 다음과 같다.<br /><br />
                 에임슛: 레벨 상승시마다 퓨어 오브가 <mark>공중에서 대상을<br />
-                    재조준 (리에임)하여 날릴 수 있는 횟수가 증가</mark>한다.<br />
-                화력: 레벨 상승시마다 <mark>퓨어 오브의 화력 (force)이 증가</mark>한다.
+                재조준 (리에임)하여 날릴 수 있는 횟수가 증가</mark>한다.<br />
             </div>
         </>
     );
 }
 
-function System4() {
+function System5() {
     return (
         <>
             <div className="Image">
@@ -69,7 +79,7 @@ function System4() {
     );
 }
 
-function System5() {
+function System6() {
     return (
         <>
             <div className="Image">
@@ -89,7 +99,7 @@ function System5() {
     );
 }
 
-function System6() {
+function System7() {
     return (
         <>
             <div className="Image">
@@ -106,7 +116,7 @@ function System6() {
     );
 }
 
-function System7() {
+function System8() {
     return (
         <>
             <div className="Image">
@@ -122,7 +132,7 @@ function System7() {
     );
 }
 
-function System8() {
+function System9() {
     return (
         <>
             <div className="Image">
@@ -139,7 +149,7 @@ function System8() {
     );
 }
 
-function System9() {
+function System10() {
     return (
         <>
             <div className="Image">
@@ -156,7 +166,7 @@ function System9() {
     );
 }
 
-function System10() {
+function System11() {
     return (
         <>
             <div className="Main-text">
@@ -168,7 +178,7 @@ function System10() {
     );
 }
 
-function System11() {
+function System12() {
     return (
         <>
             <div className="Image">
@@ -185,7 +195,7 @@ function System11() {
     );
 }
 
-function System12() {
+function System13() {
     return (
         <>
             <div className="Image">
@@ -201,7 +211,7 @@ function System12() {
     );
 }
 
-function System13() {
+function System14() {
     return (
         <>
             <div className="Image">
@@ -221,7 +231,7 @@ function System13() {
     );
 }
 
-function System14() {
+function System15() {
     return (
         <div className="Main-text">
             스테이지를 클리어할 때마다 경험치가 조금씩 차오른다.<br /><br />
@@ -232,7 +242,7 @@ function System14() {
     );
 }
 
-function System15() {
+function System16() {
     return (
         <>
             <div className="Image">
@@ -249,7 +259,7 @@ function System15() {
     );
 }
 
-function System16() {
+function System17() {
     return (
         <>
             <div className="Image">
@@ -270,4 +280,4 @@ function System16() {
 }
 
 export { System, System2, System3, System4, System5, System6, System7, System8, System9, System10 };
-export { System11, System12, System13, System14, System15, System16 };
+export { System11, System12, System13, System14, System15, System16, System17 };
