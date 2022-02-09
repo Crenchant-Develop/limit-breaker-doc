@@ -7,9 +7,9 @@ function Stage() {
                 <img className="Image-right" src={require('../img/stage.png')} alt="Reference" />
             </div>
             <div className="Main-text">
-                각 스테이지마다 구조는 같지만 콘셉트는 전부 다르며,<br />
-                임팩테이블의 모습이 다양하게 바뀐다. 스테이지가 지날수록<br />
-                임팩테이블의 종류가 많아지고 속도 또한 빨라진다.<br /><br />
+                각 스테이지마다 기본적인 구조는 같지만 콘셉트는 전부 다르며<br />
+                이에 따라 임팩테이블의 모습이 다양하게 바뀐다. 스테이지마다<br />
+                임팩테이블의 종류와 속도에는 전부 차이가 존재한다.<br /><br />
                 스테이지 - 서브 스테이지 - 웨이브의 구조를 취하고 있다.
             </div>
         </>

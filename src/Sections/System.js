@@ -239,8 +239,8 @@ function System15() {
                 <img className="Image-right-square" src={require('../img/sugarCoin.png')} alt="Sugar Coin" />
             </div>
             <div className="Main-text">
-                슈가코인은 사탕처럼 표시되며 드림포인트로 교환이 가능하다.<br />
-                화폐는 슈가코인이라고 불리우며, 게임 내에서 화폐의 역할을 한다.<br /><br />
+                화폐는 슈가코인이라고 불리우며, 게임 내에서 재화의 역할을 한다.<br />
+                슈가코인은 사탕처럼 표시되며 드림포인트로 교환이 가능하다.<br /><br />
                 <mark>계급성</mark><br />크기가 큰 장애물을 파괴할수록 슈가코인이 많이 들어온다.<br /><br />
                 <mark>초과성</mark><br />한계 충격량을 초과해서 파괴할수록 슈가코인이 많이 들어온다.<br /><br />
                 <mark>연속성</mark><br />장애물을 한 번에 많이 파괴할수록 슈가코인이 많이 들어온다.
@@ -259,7 +259,7 @@ function System16() {
                 드림포인트는 퓨어 오브 강화용으로 지불이 가능하다.<br />
                 필요한 드림포인트는 레벨에 따라 이차함수적으로 증가한다.<br />
                 또한 1스테이지를 제외한 다른 스테이지로 이동하기<br />
-                위해서는 일정량의 슈가코인을 지불해야 한다.<br /><br />
+                위해서는 일정량의 드림포인트를 지불해야 한다.<br /><br />
                 적용 공식
                 <div className="code-box">
                     필요드림포인트 = Math.Pow(level, 2);
