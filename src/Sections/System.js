@@ -4,13 +4,14 @@ function System() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/options.png')} alt="Options" />
+                <img className="Image-right-square" src={require('../img/sugarCoin.png')} alt="Sugar Coin" />
             </div>
             <div className="Main-text">
-                스킬 강화는 해당 요소의 레벨을 올리는 방식으로 이루어지며<br />
-                스토리상으로는 잃어버린 오브의 힘을 점차 되찾는 것이다.<br /><br />
-                각 항목의 최소 레벨은 0이고 체력을 제외한 최대 레벨은 10이다.<br />
-                튜토리얼 한정으로 레벨 0으로 진행된다 인게임에 표시되지 않는다.
+                화폐는 슈가코인이라고 불리우며, 게임 내에서 재화의 역할을 한다.<br />
+                슈가코인은 사탕처럼 표시되며 드림포인트로 교환이 가능하다.<br /><br />
+                <mark>계급성</mark><br />크기가 큰 장애물을 파괴할수록 슈가코인이 많이 들어온다.<br /><br />
+                <mark>초과성</mark><br />한계 충격량을 초과해서 파괴할수록 슈가코인이 많이 들어온다.<br /><br />
+                <mark>연속성</mark><br />장애물을 한 번에 많이 파괴할수록 슈가코인이 많이 들어온다.
             </div>
         </>
     );
@@ -18,11 +19,20 @@ function System() {
 
 function System2() {
     return (
-        <div className="Main-text">
-            스킬들은 마치 장비처럼 스킬 슬롯에 장착이 가능하다.<br />
-            처음에는 액티브 3칸 / 패시브 3칸으로 시작하여 <mark>드림포인트를<br />
-            지불</mark>하는 것으로 스킬 슬롯의 칸을 늘리는 것이 가능하다.
-        </div>
+        <>
+            <div className="Image">
+                <img className="Image-right-square" src={require('../img/dreamPoint.png')} alt="Dream Point" />
+            </div>
+            <div className="Main-text">
+                드림포인트는 <mark>스킬 강화</mark> 및 <mark>스킬 슬롯 확장용</mark>으로 지불이 가능하며<br />
+                강화에 필요한 드림포인트는 레벨에 따라 이차함수적으로 증가한다.<br /><br />
+                적용 공식
+                <div className="code-box">
+                    필요드림포인트 = Math.Pow(level, 2);
+                </div><br />
+                또한 1스테이지를 뺀 나머지 스테이지로 이동하기 위해서도 지불이 필요하다.
+            </div>
+        </>
     );
 }
 
@@ -33,8 +43,34 @@ function System3() {
                 <img className="Image-right" src={require('../img/options.png')} alt="Options" />
             </div>
             <div className="Main-text">
+                스킬 강화는 해당 요소의 레벨을 올리는 방식으로 이루어지며<br />
+                스토리상으로는 잃어버린 오브의 힘을 점차 되찾는 것이다.<br /><br />
+                각 항목의 최소 레벨은 0이고 체력을 제외한 최대 레벨은 10이다.<br />
+                튜토리얼 한정으로 레벨 0으로 진행되며 인게임에 표시되지 않는다.
+            </div>
+        </>
+    );
+}
+
+function System4() {
+    return (
+        <div className="Main-text">
+            스킬들은 마치 장비처럼 스킬 슬롯에 장착이 가능하다.<br />
+            처음에는 액티브 3칸 / 패시브 3칸으로 시작하여 <mark>드림포인트를<br />
+            지불</mark>하는 것으로 스킬 슬롯의 칸을 늘리는 것이 가능하다.
+        </div>
+    );
+}
+
+function System5() {
+    return (
+        <>
+            <div className="Image">
+                <img className="Image-right" src={require('../img/options.png')} alt="Options" />
+            </div>
+            <div className="Main-text">
                 각 옵션이 지니는 효과는 다음과 같다.<br /><br />
-                공격력: 레벨 상승시마다 <mark>고정 피해 (damage)</mark>가 아래의 공식을 따른다.<br />
+                공격력: 레벨 상승시마다 <mark>고정 피해 (damage)</mark>가 하단의 공식을 따른다.<br />
                 <div className="code-box">
                     <mark>//int damage0은 레벨 0 기준 고정 피해</mark><br />
                     (hp - damage0) * (1 + (level * 0.2));
@@ -49,7 +85,7 @@ function System3() {
     );
 }
 
-function System4() {
+function System6() {
     return (
         <>
             <div className="Image">
@@ -57,29 +93,31 @@ function System4() {
             </div>
             <div className="Main-text">
                 각 옵션이 지니는 효과는 다음과 같다.<br /><br />
-                에임슛: 레벨 상승시마다 퓨어 오브가 <mark>공중에서 대상을<br />
-                재조준 (리에임)하여 날릴 수 있는 횟수가 증가</mark>한다.<br />
+                에임슛: 레벨 상승시마다 퓨어 오브가 공중에서 대상을<br />
+                <mark>재조준 (리에임)하여 날릴 수 있는 횟수가 증가</mark>한다.<br />
+                게이지가 2단계 이상 차 있지 않으면 사용이 불가능하다.
             </div>
         </>
     );
 }
 
-function System5() {
+function System7() {
     return (
         <>
             <div className="Image">
                 <img className="Image-right" src={require('../img/gaugeUI.png')} alt="Gauge" />
             </div>
             <div className="Main-text">
-                게이지가 많이 차 있을수록 코어의 화력 값이 증가한다.<br /><br />
+                게이지가 많이 차 있을수록 오브의 화력 값이 증가하며,<br />
+                표시되어 있는 마디선에 따라 총 3단계로 나뉜다.<br /><br />
                 게이지가 완충됐는데도 날려지지 않을 경우 자동으로 날려지며,<br />
-                땅에 떨어진 코어는 몇 초 뒤 사라지며 다시 활성화가 가능해진다.
+                땅에 떨어진 퓨어 오브는 몇 초 뒤 사라지고 다시 활성화된다.
             </div>
         </>
     );
 }
 
-function System6() {
+function System8() {
     return (
         <>
             <div className="Image">
@@ -99,7 +137,7 @@ function System6() {
     );
 }
 
-function System7() {
+function System9() {
     return (
         <>
             <div className="Image">
@@ -116,7 +154,7 @@ function System7() {
     );
 }
 
-function System8() {
+function System10() {
     return (
         <>
             <div className="Image">
@@ -132,7 +170,7 @@ function System8() {
     );
 }
 
-function System9() {
+function System11() {
     return (
         <>
             <div className="Image">
@@ -149,7 +187,7 @@ function System9() {
     );
 }
 
-function System10() {
+function System12() {
     return (
         <>
             <div className="Image">
@@ -166,7 +204,7 @@ function System10() {
     );
 }
 
-function System11() {
+function System13() {
     return (
         <>
             <div className="Main-text">
@@ -178,7 +216,7 @@ function System11() {
     );
 }
 
-function System12() {
+function System14() {
     return (
         <>
             <div className="Image">
@@ -195,7 +233,7 @@ function System12() {
     );
 }
 
-function System13() {
+function System15() {
     return (
         <>
             <div className="Image">
@@ -211,7 +249,7 @@ function System13() {
     );
 }
 
-function System14() {
+function System16() {
     return (
         <>
             <div className="Image">
@@ -231,7 +269,7 @@ function System14() {
     );
 }
 
-function System15() {
+function System17() {
     return (
         <div className="Main-text">
             스테이지를 클리어할 때마다 경험치가 조금씩 차오른다.<br /><br />
@@ -239,43 +277,6 @@ function System15() {
             일반 스테이지 (그 외 스테이지) 순으로 받는 경험치가 늘어난다.<br /><br />
             5의 배수 레벨이 될 때마다 오브의 HP가 영구적으로 1 상승한다.
         </div>
-    );
-}
-
-function System16() {
-    return (
-        <>
-            <div className="Image">
-                <img className="Image-right-square" src={require('../img/sugarCoin.png')} alt="Sugar Coin" />
-            </div>
-            <div className="Main-text">
-                화폐는 슈가코인이라고 불리우며, 게임 내에서 재화의 역할을 한다.<br />
-                슈가코인은 사탕처럼 표시되며 드림포인트로 교환이 가능하다.<br /><br />
-                <mark>계급성</mark><br />크기가 큰 장애물을 파괴할수록 슈가코인이 많이 들어온다.<br /><br />
-                <mark>초과성</mark><br />한계 충격량을 초과해서 파괴할수록 슈가코인이 많이 들어온다.<br /><br />
-                <mark>연속성</mark><br />장애물을 한 번에 많이 파괴할수록 슈가코인이 많이 들어온다.
-            </div>
-        </>
-    );
-}
-
-function System17() {
-    return (
-        <>
-            <div className="Image">
-                <img className="Image-right-square" src={require('../img/dreamPoint.png')} alt="Dream Point" />
-            </div>
-            <div className="Main-text">
-                드림포인트는 퓨어 오브 강화용으로 지불이 가능하다.<br />
-                필요한 드림포인트는 레벨에 따라 이차함수적으로 증가한다.<br />
-                또한 1스테이지를 제외한 다른 스테이지로 이동하기<br />
-                위해서는 일정량의 드림포인트를 지불해야 한다.<br /><br />
-                적용 공식
-                <div className="code-box">
-                    필요드림포인트 = Math.Pow(level, 2);
-                </div>
-            </div>
-        </>
     );
 }
 
