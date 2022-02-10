@@ -132,8 +132,7 @@ function System8() {
                 <img className="Image-right" src={require('../img/gaugeUI.png')} alt="Gauge" />
             </div>
             <div className="Main-text">
-                화력(force)에 비율을 적용하며, 게이지는 선형적으로 차오른다.<br />
-                적용 공식
+                화력(force)에 하단의 공식을 적용하며, 게이지는 선형적으로 차오른다.
                 <div className="code-box">
                     <mark>//int maxPer는 게이지가 100%일 때 화력 배율, int minPer는 게이지가 0%일 때 화력 배율, float gaugePercent는 현재 게이지 퍼센트, int level은 현재 화력 강화 레벨</mark><br />
                     ((maxPer-minPer) * 0.01) * gaugePercent + minPer;<br />
