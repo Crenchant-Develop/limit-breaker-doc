@@ -69,7 +69,7 @@ function System5() {
                 <img className="Image-right" src={require('../img/options.png')} alt="Options" />
             </div>
             <div className="Main-text">
-                각 옵션이 지니는 효과는 다음과 같다.<br /><br />
+                패시브 스킬은 초록색으로 표시되며, 각각이 지니는 효과는 다음과 같다.<br /><br />
                 공격력: 레벨 상승시마다 <mark>고정 피해 (damage)</mark>가 하단의 공식을 따른다.<br />
                 <div className="code-box">
                     <mark>//int damage0은 레벨 0 기준 고정 피해</mark><br />
@@ -92,7 +92,7 @@ function System6() {
                 <img className="Image-right" src={require('../img/options.png')} alt="Options" />
             </div>
             <div className="Main-text">
-                각 옵션이 지니는 효과는 다음과 같다.<br /><br />
+                액티브 스킬은 초록색으로 표시되며, 각각이 지니는 효과는 다음과 같다.<br /><br />
                 에임슛: 레벨 상승시마다 퓨어 오브가 공중에서 대상을<br />
                 <mark>재조준 (리에임)하여 날릴 수 있는 횟수가 증가</mark>한다.<br />
                 게이지가 2단계 이상 차 있지 않으면 사용이 불가능하다.
@@ -108,8 +108,8 @@ function System7() {
                 <img className="Image-right" src={require('../img/gaugeUI.png')} alt="Gauge" />
             </div>
             <div className="Main-text">
-                게이지가 많이 차 있을수록 오브의 화력 값이 증가하며,<br />
-                표시되어 있는 마디선에 따라 총 3단계로 나뉜다.<br /><br />
+                게이지가 많이 차 있을수록 오브의 화력이 증가하며 마디선에 따라<br />
+                총 3단계로 나뉘고 단계에 따라 퓨어 오브의 이펙트가 달라진다.<br /><br />
                 게이지가 완충됐는데도 날려지지 않을 경우 자동으로 날려지며,<br />
                 땅에 떨어진 퓨어 오브는 몇 초 뒤 사라지고 다시 활성화된다.
             </div>

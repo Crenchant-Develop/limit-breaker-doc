@@ -8,7 +8,7 @@ function GUI() {
             </div>
             <div className="Main-text">
                 본 게임이 시작하기 전에 들르게 되는 화면이다.<br />
-                스테이지 선택, 오브 강화 등 다양한 것들을 선택할 수 있다.
+                스테이지 선택, 스킬 정비 등 다양한 것들을 선택할 수 있다.
             </div>
         </>
     );
@@ -32,18 +32,33 @@ function GUI3() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/options.png')} alt="GUI" />
+                <img className="Image-right" src={require('../img/skillUpgrade.png')} alt="GUI" />
             </div>
             <div className="Main-text">
-                메인 화면에서 <mark>오브 강화</mark>에 들어갔을 때 보게 되는 화면이다.<br />
-                다양한 강화 요소들과 해당 요소를 직관적으로 보여주는 아이콘들,<br />
-                그리고 그 아래쪽에 있는 현재 레벨 등으로 편한 강화가 가능하게 한다.
+                메인 화면에서 <mark>스킬 정비</mark>에 들어갔을 때 보게 되는 화면이다.<br />
+                해당 화면에서는 여러 스킬들을 슬롯에 장착할 수 있게 하고<br />
+                버튼을 통해 스킬 강화 화면으로 진입이 가능하게 할 예정이다.
             </div>
         </>
     );
 }
 
 function GUI4() {
+    return (
+        <>
+            <div className="Image">
+                <img className="Image-right" src={require('../img/options.png')} alt="GUI" />
+            </div>
+            <div className="Main-text">
+                메인 화면에서 <mark>스킬 강화</mark>에 들어갔을 때 보게 되는 화면이다.<br />
+                다양한 강화 요소들과 해당 요소를 직관적으로 보여주는 아이콘들,<br />
+                그 아래쪽에 있는 현재 레벨 등으로 편한 강화가 가능하게 한다.
+            </div>
+        </>
+    );
+}
+
+function GUI5() {
     return (
         <>
             <div className="Image">
@@ -59,7 +74,7 @@ function GUI4() {
     );
 }
 
-function GUI5() {
+function GUI6() {
     return (
         <>
             <div className="Image">
@@ -73,7 +88,7 @@ function GUI5() {
     );
 }
 
-function GUI6() {
+function GUI7() {
     return (
         <>
             <div className="Image">
@@ -87,4 +102,4 @@ function GUI6() {
     );
 }
 
-export { GUI, GUI2, GUI3, GUI4, GUI5, GUI6 };
+export { GUI, GUI2, GUI3, GUI4, GUI5, GUI6, GUI7 };
