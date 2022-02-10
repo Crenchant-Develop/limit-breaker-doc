@@ -75,16 +75,16 @@ function System5() {
             </div>
             <div className="Main-text">
                 패시브 스킬은 초록색으로 표시되며, 효과는 다음과 같다.<br /><br />
-                공격력: 레벨 상승시마다 <mark>고정 피해 (damage)</mark>가 하단의 공식을 따른다.<br />
+                제압: 레벨 상승시마다 <mark>고정 피해 (damage)</mark>가 하단의 공식을 따른다.<br />
                 <div className="code-box">
                     <mark>//int damage0은 레벨 0 기준 고정 피해</mark><br />
                     (hp - damage0) * (1 + (level * 0.2));
                 </div>
-                화력: 레벨 상승시마다 <mark>퓨어 오브의 화력 (force)이 증가</mark>한다.<br />
+                기세: 레벨 상승시마다 <mark>퓨어 오브의 화력 (force)이 증가</mark>한다.<br />
+                약체화: 레벨 상승시마다 <mark>임팩테이블의 최소 충격량 값 (limit)이 감소</mark>한다.
                 결정화: 레벨 상승시마다 <mark>HP가 1씩 증가</mark>한다. (유일하게 최대 레벨이 5이다.)<br />
                 쾌속: 레벨 상승시마다 <mark>게이지가 차오르는 속도가 증가</mark>한다.<br />
                 성장: 레벨 상승시마다 <mark>퓨어 오브의 크기 (scale)와 범위가 증가</mark>한다.<br />
-                약체화: 레벨 상승시마다 <mark>임팩테이블의 최소 충격량 값 (limit)이 감소</mark>한다.
             </div>
         </>
     );
