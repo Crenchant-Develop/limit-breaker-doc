@@ -29,11 +29,11 @@ export default function SectionsStory() {
                         </Section>
 
                         <Section>
-                            <MainContext number="03" title="스킬 강화" content={System3()} />
+                            <MainContext number="03" title="스킬 슬롯" content={System3()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="04" title="스킬 슬롯" content={System4()} />
+                            <MainContext number="04" title="스킬 강화" content={System4()} />
                         </Section>
 
                         <Section>

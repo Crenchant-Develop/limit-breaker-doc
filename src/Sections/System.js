@@ -40,6 +40,21 @@ function System3() {
     return (
         <>
             <div className="Image">
+                <img className="Image-right" src={require('../img/skillUpgrade.png')} alt="Dream Point" />
+            </div>
+            <div className="Main-text">
+                스킬들은 마치 장비처럼 스킬 슬롯에 장착이 가능하다.<br />
+                처음에는 액티브 3칸 / 패시브 3칸으로 시작하여 <mark>드림포인트를<br />
+                지불</mark>하는 것으로 스킬 슬롯의 칸을 늘리는 것이 가능하다.
+            </div>
+        </>
+    );
+}
+
+function System4() {
+    return (
+        <>
+            <div className="Image">
                 <img className="Image-right" src={require('../img/options.png')} alt="Options" />
             </div>
             <div className="Main-text">
@@ -49,16 +64,6 @@ function System3() {
                 튜토리얼 한정으로 레벨 0으로 진행되며 인게임에 표시되지 않는다.
             </div>
         </>
-    );
-}
-
-function System4() {
-    return (
-        <div className="Main-text">
-            스킬들은 마치 장비처럼 스킬 슬롯에 장착이 가능하다.<br />
-            처음에는 액티브 3칸 / 패시브 3칸으로 시작하여 <mark>드림포인트를<br />
-            지불</mark>하는 것으로 스킬 슬롯의 칸을 늘리는 것이 가능하다.
-        </div>
     );
 }
 
