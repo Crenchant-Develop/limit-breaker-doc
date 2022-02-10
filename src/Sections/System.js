@@ -44,8 +44,8 @@ function System3() {
             </div>
             <div className="Main-text">
                 스킬들은 마치 장비처럼 스킬 슬롯에 장착이 가능하다.<br />
-                처음에는 액티브 3칸 / 패시브 3칸으로 시작하여 <mark>드림포인트를<br />
-                지불</mark>하는 것으로 스킬 슬롯의 칸을 늘리는 것이 가능하다.
+                처음에는 액티브 3칸 / 패시브 3칸으로 시작하여 <mark>드림포인트</mark>를<br />
+                지불하는 것으로 스킬 슬롯의 칸을 늘리는 것이 가능하다.
             </div>
         </>
     );
@@ -97,7 +97,7 @@ function System6() {
                 <img className="Image-right" src={require('../img/options.png')} alt="Options" />
             </div>
             <div className="Main-text">
-                액티브 스킬은 초록색으로 표시되며, 각각이 지니는 효과는 다음과 같다.<br /><br />
+                액티브 스킬은 주황색으로 표시되며, 각각이 지니는 효과는 다음과 같다.<br /><br />
                 에임슛: 레벨 상승시마다 퓨어 오브가 공중에서 대상을<br />
                 <mark>재조준 (리에임)하여 날릴 수 있는 횟수가 증가</mark>한다.<br />
                 게이지가 2단계 이상 차 있지 않으면 사용이 불가능하다.
