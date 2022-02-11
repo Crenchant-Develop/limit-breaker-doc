@@ -29,7 +29,7 @@ function Settings3() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right-square" src={require('../img/pureOrb.png')} alt="Settings" />
+                <img src="https://i.ibb.co/XWyMk6G/pureOrb.png" alt="pureOrb" border="0" />
             </div>
             <div className="Main-text">
                 <mark>파괴</mark>와 <mark>정화</mark>의 능력을 가지고 있는 메인 오브젝트로,<br />
@@ -45,7 +45,7 @@ function Settings4() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right-square" src={require('../img/darkOrb.png')} alt="Settings" />
+                <img src="https://i.ibb.co/F5vpc0s/darkOrb.png" alt="darkOrb" border="0" />
             </div>
             <div className="Main-text">
                 주민들이 악몽을 꾸지 않도록 덩어리 형태로 봉인된 오브젝트로,<br />
@@ -63,7 +63,7 @@ function Settings5() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right-square" src={require('../img/mirror.png')} alt="Settings" />
+                <img src="https://i.ibb.co/g3KfDxn/mirror.png" alt="mirror" border="0" />
             </div>
             <div className="Main-text">
                 세계와 세계를 잇는 통로와도 같은 곳. 평범한 거울이었으나<br />
@@ -91,7 +91,7 @@ function Settings7() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/refs/mirrorWorld.png')} alt="Settings" />
+                <img src="https://i.ibb.co/dtJJy5T/mirror-World.png" alt="mirror-World" border="0" />
             </div>
             <div className="Main-text">
                 현혹의 거울 속에 자리잡은 세계로 이빌리아 왕국의 잔해와도 같은 곳.<br />

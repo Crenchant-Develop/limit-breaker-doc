@@ -4,7 +4,7 @@ function Gimmick() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/refs/gimmick.png')} alt="Gimmick" />
+                <img src="https://i.ibb.co/ch3LSSF/gimmick.png" alt="gimmick" border="0" />
             </div>
             <div className="Main-text">
                 장애물이 자연스럽게 넘어오는 느낌을 주기 위해 사방에는 <mark>옅은 안개</mark>가<br />
@@ -62,7 +62,7 @@ function Gimmick3() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/refs/gimmick1.png')} alt="Gimmick" />
+                <img src="https://i.ibb.co/ChdrHpW/gimmick1.png" alt="gimmick1" border="0" />
             </div>
             <div className="Main-text">
                 3단계 개체가 처음으로 등장한다.<br /><br />
@@ -78,7 +78,7 @@ function Gimmick4() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/refs/gimmick2.png')} alt="Gimmick" />
+                <img src="https://i.ibb.co/8sZ2Frd/gimmick2.png" alt="gimmick2" border="0" />
             </div>
             <div className="Main-text">
                 4단계 개체가 처음으로 등장한다.<br /><br />
@@ -93,7 +93,7 @@ function Gimmick5() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/refs/gimmick3.png')} alt="Gimmick" />
+                <img src="https://i.ibb.co/mymdfvP/gimmick3.png" alt="gimmick3" border="0" />
             </div>
             <div className="Main-text">
                 5단계 개체와 분열 개체가 처음으로 등장한다.<br /><br />
@@ -108,7 +108,7 @@ function Gimmick6() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/refs/gimmickX.png')} alt="Gimmick" />
+                <img src="https://i.ibb.co/xgRZKRT/gimmickX.png" alt="gimmickX" border="0" />
             </div>
             <div className="Main-text">
                 스테이지에는 핀볼을 연상케 하는 여러 오브젝트들이 배치될 예정이다.<br />
@@ -122,7 +122,7 @@ function Gimmick7() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/refs/gimmick4.png')} alt="Gimmick" />
+                <img src="https://i.ibb.co/g7yPDmn/gimmick4.png" alt="gimmick4" border="0" />
             </div>
             <div className="Main-text">
                 숲은 때때로 일정 간격으로 몹시 어두워지거나 눈부실 정도로<br />
@@ -152,7 +152,7 @@ function Gimmick9() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/refs/gimmick6.png')} alt="Gimmick" />
+                <img src="https://i.ibb.co/gt7Fn05/gimmick6.png" alt="gimmick6" border="0" />
             </div>
             <div className="Main-text">
                 임팩테이블은 길 아래에서 발판을 통해 서서히 올라오며<br />
@@ -182,7 +182,7 @@ function Gimmick11() {
     return (
         <>
             <div className="Image">
-                <img className="Image-right" src={require('../img/refs/gimmick8.png')} alt="Gimmick" />
+                <img src="https://i.ibb.co/JFBk3dw/gimmick8.png" alt="gimmick8" border="0" />
             </div>
             <div className="Main-text">
                 임팩테이블은 성채에 딸린 미끄럼틀을 타고 컨베이어 벨트에<br />
