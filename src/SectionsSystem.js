@@ -27,53 +27,53 @@ export default function SectionsStory() {
                         <Section>
                             <MainContext number="02" title="드림포인트" content={System2()} />
                         </Section>
-
+                        
                         <Section>
-                            <MainContext number="03" title="스킬 슬롯" content={System3()} />
+                            <MainContext number="03" title="경험치" content={System3()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="04" title="스킬 강화" content={System4()} />
+                            <MainContext number="04" title="스킬 슬롯" content={System4()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="05" title="패시브 스킬" content={System5()} />
+                            <MainContext number="05" title="스킬 강화" content={System5()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="06" title="액티브 스킬" content={System6()} />
+                            <MainContext number="06" title="패시브 스킬" content={System6()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="07" title="퓨어 오브 - 게이지" content={System7()} />
+                            <MainContext number="07" title="액티브 스킬" content={System7()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="08" title="퓨어 오브 - 게이지 공식" content={System8()} />
+                            <MainContext number="08" title="퓨어 오브 - 게이지" content={System8()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="09" title="퓨어 오브 - 하트" content={System9()} />
+                            <MainContext number="09" title="퓨어 오브 - 게이지 공식" content={System9()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="10" title="임팩테이블" content={System10()} />
+                            <MainContext number="10" title="퓨어 오브 - 하트" content={System10()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="11" title="임팩테이블 - 스탯" content={System11()} />
+                            <MainContext number="11" title="임팩테이블" content={System11()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="12" title="임팩테이블 - 충격량" content={System12()} />
+                            <MainContext number="12" title="임팩테이블 - 스탯" content={System12()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="13" title="임팩테이블 - 분류" content={System13()} />
+                            <MainContext number="13" title="임팩테이블 - 충격량" content={System13()} />
                         </Section>
 
                         <Section>
-                            <MainContext number="14" title="임팩테이블의 종류" content={System14()} />
+                            <MainContext number="14" title="임팩테이블 - 분류" content={System14()} />
                         </Section>
 
                         <Section>
@@ -85,7 +85,7 @@ export default function SectionsStory() {
                         </Section>
 
                         <Section>
-                            <MainContext number="17" title="경험치" content={System17()} />
+                            <MainContext number="17" title="임팩테이블의 종류" content={System17()} />
                         </Section>
                     </div>
                 );

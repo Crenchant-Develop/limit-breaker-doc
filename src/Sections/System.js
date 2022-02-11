@@ -30,13 +30,25 @@ function System2() {
                 <div className="code-box">
                     필요드림포인트 = Math.Pow(level, 2);
                 </div><br />
-                또한 1스테이지를 뺀 나머지 스테이지로 이동하기 위해서도 지불이 필요하다.
+                1스테이지를 뺀 나머지 스테이지로 이동하기 위해서도 지불이 필요하다.
             </div>
         </>
     );
 }
 
 function System3() {
+    return (
+        <div className="Main-text">
+            스테이지를 클리어할 때마다 경험치가 조금씩 차오른다.<br /><br />
+            보스 스테이지 (N-10 스테이지), 중보스 스테이지 (N-5 스테이지),<br />
+            일반 스테이지 (그 외 스테이지) 순으로 받는 경험치가 늘어난다.<br /><br />
+            5의 배수 레벨이 될 때마다 <mark>오브의 HP가 영구적으로 1 상승</mark>하며,<br />
+            스킬을 강화하기 위해서는 <mark>일정량 이상의 레벨</mark>이 필요하다.
+        </div>
+    );
+}
+
+function System4() {
     return (
         <>
             <div className="Image">
@@ -51,7 +63,7 @@ function System3() {
     );
 }
 
-function System4() {
+function System5() {
     return (
         <>
             <div className="Image">
@@ -67,7 +79,7 @@ function System4() {
     );
 }
 
-function System5() {
+function System6() {
     return (
         <>
             <div className="Image">
@@ -90,7 +102,7 @@ function System5() {
     );
 }
 
-function System6() {
+function System7() {
     return (
         <>
             <div className="Image">
@@ -106,7 +118,7 @@ function System6() {
     );
 }
 
-function System7() {
+function System8() {
     return (
         <>
             <div className="Image">
@@ -125,7 +137,7 @@ function System7() {
     );
 }
 
-function System8() {
+function System9() {
     return (
         <>
             <div className="Image">
@@ -144,7 +156,7 @@ function System8() {
     );
 }
 
-function System9() {
+function System10() {
     return (
         <>
             <div className="Image">
@@ -161,7 +173,7 @@ function System9() {
     );
 }
 
-function System10() {
+function System11() {
     return (
         <>
             <div className="Image">
@@ -177,7 +189,7 @@ function System10() {
     );
 }
 
-function System11() {
+function System12() {
     return (
         <>
             <div className="Image">
@@ -194,7 +206,7 @@ function System11() {
     );
 }
 
-function System12() {
+function System13() {
     return (
         <>
             <div className="Image">
@@ -211,7 +223,7 @@ function System12() {
     );
 }
 
-function System13() {
+function System14() {
     return (
         <>
             <div className="Main-text">
@@ -223,7 +235,7 @@ function System13() {
     );
 }
 
-function System14() {
+function System15() {
     return (
         <>
             <div className="Image">
@@ -240,7 +252,7 @@ function System14() {
     );
 }
 
-function System15() {
+function System16() {
     return (
         <>
             <div className="Image">
@@ -256,7 +268,7 @@ function System15() {
     );
 }
 
-function System16() {
+function System17() {
     return (
         <>
             <div className="Image">
@@ -273,17 +285,6 @@ function System16() {
                 </div>
             </div>
         </>
-    );
-}
-
-function System17() {
-    return (
-        <div className="Main-text">
-            스테이지를 클리어할 때마다 경험치가 조금씩 차오른다.<br /><br />
-            보스 스테이지 (N-10 스테이지), 중보스 스테이지 (N-5 스테이지),<br />
-            일반 스테이지 (그 외 스테이지) 순으로 받는 경험치가 늘어난다.<br /><br />
-            5의 배수 레벨이 될 때마다 오브의 HP가 영구적으로 1 상승한다.
-        </div>
     );
 }
 
