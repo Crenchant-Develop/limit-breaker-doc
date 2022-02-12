@@ -11,8 +11,8 @@ button {
 .btn, .btn2 {
     font-size: 2.5vw;
     font-weight: bold;
-	width: 12.5vw;
-	height: 12.5vw;
+	width: 13rem;
+	height: 13rem;
     color: white;
 	text-align: center;
 	vertical-align: middle;
@@ -38,20 +38,25 @@ button {
 
 .btn-image-container {
 	position: relative;
-	width: 5vh;
-	height: 5vh;
-	border-style: none;
-	background-color: initial;
+	width: 6.5rem;
+	height: 6.5rem;
+	bottom: 6.5rem;
 }
 
 .btn-image {
-	position: absolute;
-	width: 2vw;
-	height: 2vh;
-	top: 1vh;
-	right: 7vw;
-	transform: translate(-50%, -50%);
-	transform: scale(0.2);
-	border-style: none;
-	background-color: initial;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+}
+.btn-image img {
+	object-fit: fill;
+	width: 100%;
+	height: 100%;
+}
+
+@media all and (max-width: 1150px) {
+	.btn-image-container {
+		bottom: 7.5rem;
+	}
 }

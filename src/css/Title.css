@@ -1,28 +1,36 @@
 .Title-flex-container {
 	display: flex;
-	flex-direction: row;
 	height: 100%;
+	padding: 6rem 10rem;
 }
 
 .Title-bar {
 	box-sizing: border-box;
 	border-radius: 2em;
-	width: 50vw;
-	height: 2.5vh;
-	margin: 20px auto;
+	width: 100%;
+	height: 1rem;
+	margin: 0 0 0 2rem;
 	background-color: #ea5550;
 	flex-grow: 0.8;
-	align-self: center;
-	position: relative;
-	top: 6vh;
-	left: -4vw;
+	align-self: end;
+	display: flex;
+	justify-content: space-between;
 }
 
 .Title-text {
-	position: relative;
-	top: -11vh;
-	left: 1vw;
-	font-size: 4vw;
+	font-size: 4.5rem;
 	font-style: italic;
-	vertical-align: bottom;
+	position: relative;
+	bottom: 6rem;
+}
+
+@media all and (max-width: 1150px) {
+	.Title-flex-container {
+		display: flex;
+		height: 100%;
+		padding: 3rem 3rem;
+	}
+	.Title-text {
+		bottom: 7rem;
+	}
 }

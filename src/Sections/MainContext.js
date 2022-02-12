@@ -24,11 +24,11 @@ export function MainContext(props) {
                         <div className="Title-text">
                             {props.title}
                         </div>
-                    </div>
-                    <div className="btn-image-container">
-                        <button className="btn-image" onClick={() => SetChangeViewState(stateViewEnum.main)}>
-                            <img src={home} />
-                        </button>
+                        <div className="btn-image-container">
+                            <button className="btn-image" onClick={() => SetChangeViewState(stateViewEnum.main)}>
+                                <img src={home} />
+                            </button>
+                        </div>
                     </div>
                     <div className="quarter-circle">
                         <div className="quarter-circle-small">
