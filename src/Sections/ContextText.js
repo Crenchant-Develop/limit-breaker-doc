@@ -15,7 +15,7 @@ export function Main() {
 export function LinkMain() {
     return (
         <div className="Video-source">
-            <iframe src="https://www.youtube.com/embed/_BgVdRTHxcQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe src="https://www.youtube.com/embed/xZkrNe8Md6Y" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
     );
 }
